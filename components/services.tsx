@@ -1,6 +1,6 @@
 export default function Services() {
   return (
-    <section id="services" className="flex flex-col items-center justify-center pt-16 pb-12 bg-black text-white">
+    <section id="services" className="flex flex-col items-center justify-center pt-16 pb-12 bg-black text-WhiteColor">
       <h2 className="text-3xl font-bold mb-8">
         Lista de serviços
       </h2>

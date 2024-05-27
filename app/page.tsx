@@ -4,6 +4,7 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
 import Localization from "@/components/localization";
+import ServiceHours from "@/components/serviceHours";
 import Services from "@/components/services";
 
 export default function Home() {
@@ -12,7 +13,8 @@ export default function Home() {
     <Hero />
     <Services />
     <Discout />
-    <About />
+    <ServiceHours />
+    {/* <About /> */}
     <Localization />
     <Footer />
   </>

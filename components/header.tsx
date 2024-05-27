@@ -8,7 +8,7 @@ export default function Header() {
             <a className="font-bold hover:opacity-70 transition-all duration-300" href="#home">Ínicio</a>{/* e galeria */}
           </li>
           <li>
-            <a className="font-bold hover:opacity-70 transition-all duration-300" href="#services">Serviços</a>
+            {/* <a className="font-bold hover:opacity-70 transition-all duration-300" href="#services">Serviços</a> */}
           </li>
           <li>
             <a className="font-bold hover:opacity-70 transition-all duration-300" href="#about">Sobre</a>{/* e reviews */}
