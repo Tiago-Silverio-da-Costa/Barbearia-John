@@ -55,11 +55,11 @@ const proximaNova = localFont({
 export default function About() {
   return (
     <section id="about" className="text-WhiteColor">
-      <div className="flex flex-col items-center gap-4 md:flex-row  mx-auto max-w-5xl w-5/6">
+      <div className="flex flex-col-reverse items-start md:items-center md:flex-row mx-auto max-w-5xl w-5/6 py-16 md:gap-4">
         <SliderAbout />
-        <div className="flex flex-col items-start justify-center mx-auto max-w-5xl w-5/6 py-16">
+        <div className="flex flex-col items-start justify-center">
           <div className="flex flex-col justify-start">
-            <p className={`${proximaNova.className} italic uppercase text-lg font-semibold`}>
+            <p className={`${proximaNova.className} italic uppercase text-sm md:text-lg font-semibold`}>
               sobre nós
             </p>
             <h1 className={`${didot.className} uppercase max-w-2xl text-goldColor leading-10 text-4xl font-bold mb-4`}>

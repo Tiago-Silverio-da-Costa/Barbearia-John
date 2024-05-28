@@ -9,61 +9,29 @@ import "@/styles/swiper.css";
 import Image from "next/image";
 import { Fragment } from "react";
 
-interface AboutProps {
+interface ReviewsProps {
   image: string;
   id: number;
 }
 
-export default function SliderAbout() {
-  const aboutList: AboutProps[] = [
+export default function SliderReviews() {
+  const reviewsList: ReviewsProps[] = [
     {
       id: 1,
-      image: "/about/1.jpg",
+      image: "/reviews/1.png",
     },
     {
       id: 2,
-      image: "/about/2.jpg",
+      image: "/reviews/2.png",
     },
     {
       id: 3,
-      image: "/about/3.jpg",
+      image: "/reviews/3.jpeg",
     },
     {
-      id: 7,
-      image: "/about/7.jpg",
+      id: 4,
+      image: "/reviews/4.png",
     },
-    {
-      id: 8,
-      image: "/about/8.jpeg",
-    },
-    {
-      id: 9,
-      image: "/about/9.jpeg",
-    },
-    {
-      id: 10,
-      image: "/about/10.jpeg",
-    },
-    {
-      id: 11,
-      image: "/about/11.jpg",
-    },
-    {
-      id: 13,
-      image: "/about/13.jpg",
-    },
-    {
-      id: 15,
-      image: "/about/15.jpg",
-    },
-    {
-      id: 16,
-      image: "/about/16.jpg",
-    },
-    {
-      id: 17,
-      image: "/about/17.jpg",
-    }
   ];
 
   return (
@@ -78,7 +46,7 @@ export default function SliderAbout() {
       slidesPerView={1}
       className="mySwiper"
     >
-      {aboutList.map((about) => (
+      {reviewsList.map((about) => (
         <Fragment key={about.id}>
           <SwiperSlide className="">
             <Image src={about.image} alt="hero" width={450} height={400} />

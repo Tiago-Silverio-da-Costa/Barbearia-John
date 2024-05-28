@@ -5,13 +5,14 @@ export default function Header() {
     <header className="bg-WhiteColor">
       <div className="flex justify-between mx-auto max-w-5xl w-5/6 py-8">
         <h1 className="uppercase text-black font-black text-2xl">John</h1>
-        <nav>
+        {/* TODO: fazer toggle menu */}
+        <nav className="hidden md:block">
           <ul className="flex gap-4">
             <li>
               <Link className="text-goldColor font-bold hover:text-blackColor transition-all duration-300" href="#home">Ínicio</Link>{/* e galeria */}
             </li>
             <li>
-              {/* <Link className="text-goldColor font-bold hover:text-blackColor transition-all duration-300" href="#services">Serviços</Link> */}
+              <Link className="text-goldColor font-bold hover:text-blackColor transition-all duration-300" href="#services">Serviços</Link>
             </li>
             <li>
               <Link className="text-goldColor font-bold hover:text-blackColor transition-all duration-300" href="#about">Sobre</Link>{/* e reviews */}

@@ -56,8 +56,8 @@ export default function Services() {
     <section id="services" className="flex flex-col items-center justify-center pt-16 pb-12 text-WhiteColor">
       <div className="flex flex-col md:flex-row justify-between items-center gap-4 mx-auto max-w-5xl w-5/6">
         <div>
-          <div className="flex flex-col justify-start">
-            <p className={`${proximaNova.className} italic uppercase text-lg font-semibold`}>
+          <div className="flex flex-col text-start justify-start">
+            <p className={`${proximaNova.className} italic uppercase text-sm md:text-lg font-semibold`}>
               Lista de serviços
             </p>
             <h1 className={`${didot.className} uppercase max-w-2xl text-goldColor leading-10 text-4xl font-bold mb-4`}>
@@ -68,33 +68,33 @@ export default function Services() {
 
             <div className="flex justify-between gap-2 items-end">
               <p className="text-lg">Corte de cabelo</p>
-              <p className="text-sm text-gray-500">
+              {/* <p className="text-sm text-gray-500">
                 ...............................................................
-              </p>
+              </p> */}
               <p className="text-lg text-goldColor">R$ 25,00</p>
             </div>
 
             <div className="flex justify-between gap-2 items-end">
               <p className="text-lg">Barba</p>
-              <p className="text-sm text-gray-500">
+              {/* <p className="text-sm text-gray-500">
                 ......................................................................................
-              </p>
+              </p> */}
               <p className="text-lg text-goldColor">R$ 25,00</p>
             </div>
 
             <div className="flex justify-between gap-2 items-end">
               <p className="text-lg">Cabelo + Barba</p>
-              <p className="text-sm text-gray-500">
+              {/* <p className="text-sm text-gray-500">
                 ................................................................
-              </p>
+              </p> */}
               <p className="text-lg text-goldColor">R$ 50,00</p>
             </div>
 
             <div className="flex justify-between gap-2 items-end">
               <p className="text-lg">Sobrancelha</p>
-              <p className="text-sm text-gray-500">
+              {/* <p className="text-sm text-gray-500">
                 ........................................................................
-              </p>
+              </p> */}
               <p className="text-lg text-goldColor">R$ 25,00</p>
             </div>
           </div>

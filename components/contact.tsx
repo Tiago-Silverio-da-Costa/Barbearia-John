@@ -1,5 +1,7 @@
 import { FaWhatsapp } from "react-icons/fa6";
 import ServiceHours from "./serviceHours";
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa6";
 import localFont from "next/font/local";
 
 const didot = localFont({
@@ -58,15 +60,15 @@ export default function Contact() {
     <section id="contact" className="flex flex-col items-center justify-center">
       <div className="flex flex-col items-start justify-between mx-auto max-w-5xl w-5/6 py-16">
         <div className="flex flex-col justify-start">
-          <p className={`${proximaNova.className} italic uppercase text-lg font-semibold`}>
+          <p className={`${proximaNova.className} italic uppercase text-sm md:text-lg font-semibold`}>
             Contato / Localização
           </p>
-          <h1 className={`${didot.className} uppercase max-w-2xl text-goldColor leading-10 text-4xl font-bold mb-4`}>
+          <h1 className={`${didot.className} uppercase max-w-2xl text-goldColor leading-10 text-4xl font-bold`}>
             Onde estamos localizados
           </h1>
         </div>
-        <p className="text-lg mt-4 text-center text-textBlack"> R. Lauro Francisco dos Santos, 944 • Monte Alegre, Santa catarina - SC • 88348-595</p>
-        <div className="flex items-stretch gap-4 justify-between w-full mt-8">
+        <p className="text-lg mt-2 text-start md:text-center text-textBlack"> R. Lauro Francisco dos Santos, 944 • Monte Alegre, Santa catarina - SC • 88348-595</p>
+        <div className="flex flex-col md:flex-row items-stretch gap-4 justify-between w-full mt-8">
           <div className="w-full">
             <div className="w-full">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3554.821742345527!2d-48.67131088874965!3d-27.004184796934716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8b58ff77448c7%3A0x2404ce4f39b8ff1b!2sR.%20Lauro%20Francisco%20dos%20Santos%2C%20944%20-%20Monte%20Alegre%2C%20Cambori%C3%BA%20-%20SC%2C%2088348-595!5e0!3m2!1sen!2sbr!4v1716760561964!5m2!1sen!2sbr"
@@ -80,12 +82,21 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-4 justify-between">
+          <div className="flex flex-col gap-2 justify-start">
             <ServiceHours />
-            <a className={`${didot.className}  mt-4 flex gap-3 items-center justify-center text-blackColor bg-WhiteColor transition-all duration-200 hover:opacity-75 px-6 py-2 font-bold text-2xl`} href={`https://api.whatsapp.com/send?phone=${process.env.NUMBER}&text=Oi,%20Tudo%20bem!`}>
-              Agendar horário
-              <FaWhatsapp />
-            </a>
+            <div className="flex flex-col justify-center items-center">
+              {/* <p className="font-semibold text-sm text-textBlack mt-2 max-w-96 text-start md:text-center tracking-tight leading-4">
+                Siga a gente nas redes sociais
+              </p> */}
+              {/* <div className="flex gap-4 text-2xl">
+                <a href="https://www.instagram.com/barbeariajohn/" target="_blank" rel="noreferrer" className="text-goldColor hover:opacity-70 transition-all duration-300">
+                  <FaInstagram />
+                </a>
+                <a href="https://www.facebook.com/barbeariajohn/" target="_blank" rel="noreferrer" className="text-goldColor hover:opacity-70 transition-all duration-300">
+                  <FaFacebookF />
+                </a>
+              </div> */}
+            </div>
           </div>
         </div>
       </div>
