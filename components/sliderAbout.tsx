@@ -72,7 +72,7 @@ export default function SliderAbout() {
       loop={true}
       keyboard={true}
       autoplay={{
-        delay: 3000,
+        delay: 2500,
         disableOnInteraction: false,
       }}
       slidesPerView={1}

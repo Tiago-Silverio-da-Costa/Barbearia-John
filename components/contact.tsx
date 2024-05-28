@@ -1,7 +1,4 @@
-import { FaWhatsapp } from "react-icons/fa6";
 import ServiceHours from "./serviceHours";
-import { FaInstagram } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa6";
 import localFont from "next/font/local";
 
 const didot = localFont({
@@ -81,23 +78,7 @@ export default function Contact() {
               </iframe>
             </div>
           </div>
-
-          <div className="flex flex-col gap-2 justify-start">
-            <ServiceHours />
-            <div className="flex flex-col justify-center items-center">
-              {/* <p className="font-semibold text-sm text-textBlack mt-2 max-w-96 text-start md:text-center tracking-tight leading-4">
-                Siga a gente nas redes sociais
-              </p> */}
-              {/* <div className="flex gap-4 text-2xl">
-                <a href="https://www.instagram.com/barbeariajohn/" target="_blank" rel="noreferrer" className="text-goldColor hover:opacity-70 transition-all duration-300">
-                  <FaInstagram />
-                </a>
-                <a href="https://www.facebook.com/barbeariajohn/" target="_blank" rel="noreferrer" className="text-goldColor hover:opacity-70 transition-all duration-300">
-                  <FaFacebookF />
-                </a>
-              </div> */}
-            </div>
-          </div>
+          <ServiceHours />
         </div>
       </div>
     </section>

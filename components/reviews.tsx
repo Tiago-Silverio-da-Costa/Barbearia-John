@@ -1,5 +1,4 @@
 import localFont from "next/font/local";
-import SliderReviews from "./sliderReviews";
 import Image from "next/image";
 
 const didot = localFont({
@@ -57,7 +56,7 @@ export default function Reviews() {
   return (
     <section>
       <div className="flex flex-col md:flex-row justify-center items-center gap-2 md:gap-4 mx-auto max-w-5xl w-5/6">
-        <div className="flex flex-col justify-start">
+        <div className="flex flex-col justify-start mb-4 md:mb-0">
           <p className={`${proximaNova.className} italic uppercase text-sm md:text-lg font-semibold`}>
             Reviews
           </p>
@@ -67,7 +66,6 @@ export default function Reviews() {
           <p className="text-lg text-textBlack tracking-tighter leading-6 max-w-xl">
             Em nossa barbearia, prezamos pela qualidade e satisfação de nossos clientes. Confira o que eles têm a dizer sobre nós:
           </p>
-          <Image className="mt-4" src="/reviews/3.png" alt="quote" width={350} height={500} />
         </div>
         <div className="flex flex-col gap-2">
 

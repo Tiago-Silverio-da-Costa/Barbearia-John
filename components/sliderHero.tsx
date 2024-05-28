@@ -49,14 +49,6 @@ export default function SliderHero() {
       image: "/hero/9.jpg",
     },
     {
-      id: 10,
-      image: "/hero/10.jpeg",
-    },
-    {
-      id: 11,
-      image: "/hero/11.jpeg",
-    },
-    {
       id: 13,
       image: "/hero/13.jpeg",
     },
@@ -76,7 +68,7 @@ export default function SliderHero() {
       loop={true}
       keyboard={true}
       autoplay={{
-        delay: 3000,
+        delay: 2600,
         disableOnInteraction: false,
       }}
       slidesPerView={1}
