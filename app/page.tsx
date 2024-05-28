@@ -1,21 +1,17 @@
 import About from "@/components/about";
-import Discout from "@/components/discount";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
-import Localization from "@/components/localization";
-import ServiceHours from "@/components/serviceHours";
+import Contact from "@/components/contact";
 import Services from "@/components/services";
 
 export default function Home() {
   return <>
     <Header />
     <Hero />
+    <About />
     <Services />
-    <Discout />
-    <ServiceHours />
-    {/* <About /> */}
-    <Localization />
-    <Footer />
+    <Contact />
+    {/* <Footer /> */}
   </>
 }

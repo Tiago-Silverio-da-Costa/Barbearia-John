@@ -1,8 +1,32 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "@/styles/globals.css";
+import localFont from "next/font/local";
 
-const inter = Inter({ subsets: ["latin"] });
+const proximaNova = localFont({
+  src: [
+    {
+      path: "../public/fonts/ProximaNovaBold.otf",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/ProximaNovaBoldItalic.otf",
+      weight: "700",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/ProximaNovaRegular.otf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/ProximaNovaRegularItalic.otf",
+      weight: "500",
+      style: "italic",
+    },
+  ],
+})
 
 export const viewport: Viewport = {
 	themeColor: "#000",
@@ -51,7 +75,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={proximaNova.className}>{children}</body>
     </html>
   );
 }
