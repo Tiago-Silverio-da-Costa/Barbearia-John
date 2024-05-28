@@ -38,7 +38,7 @@ export default function Header() {
 
   return (
     <header className="bg-WhiteColor">
-      <div className="flex justify-between mx-auto max-w-5xl w-5/6 py-8">
+      <div className="flex items-center justify-between mx-auto max-w-5xl w-5/6 py-8">
         <h1 className="uppercase text-black font-black text-2xl">John</h1>
         {/* TODO: fazer toggle menu */}
         <nav className="items-center justify-center hidden md:flex">
