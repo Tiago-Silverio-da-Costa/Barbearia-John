@@ -37,14 +37,6 @@ export default function SliderAbout() {
       image: "/about/8.jpeg",
     },
     {
-      id: 9,
-      image: "/about/9.jpeg",
-    },
-    {
-      id: 10,
-      image: "/about/10.jpeg",
-    },
-    {
       id: 11,
       image: "/about/11.jpg",
     },

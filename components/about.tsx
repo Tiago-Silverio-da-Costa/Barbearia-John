@@ -55,7 +55,7 @@ const proximaNova = localFont({
 export default function About() {
   return (
     <section id="about" className="text-WhiteColor">
-      <div className="flex flex-col-reverse items-start md:items-center md:flex-row mx-auto max-w-5xl w-5/6 py-16 md:gap-4">
+      <div className="flex flex-col-reverse items-start md:flex-row mx-auto max-w-5xl w-5/6 py-16 md:gap-4">
         <SliderAbout />
         <div className="flex flex-col items-start justify-center">
           <div className="flex flex-col justify-start">
@@ -67,15 +67,12 @@ export default function About() {
             </h1>
           </div>
           <p className="text-lg text-textBlack tracking-tighter leading-6 max-w-3xl">
-            Ofereço serviços excepcionais de corte de cabelo e barba, sempre com um sorriso e dedicação ao que faço. Meu compromisso é proporcionar a cada cliente uma experiência única, onde conforto e estilo se encontram.
+            Desde 2017, a Barbearia John está na ativa, firme e forte, cuidando do seu visual com todo carinho e dedicação. Passamos por uns perrengues, mudamos de lugar umas vezes, mas nunca desistimos. Agora, tamo aqui no <Link href="#contact" className="underline text-goldColor">Monte Alegre, ao lado da escola CAIC.</Link>
           </p>
           <br />
           <p className="text-lg text-textBlack tracking-tighter leading-6 max-w-3xl">
-            Desde 2017, a Barbearia John tem cuidado do seu estilo com dedicação e excelência. Ao longo dos anos, passamos por altos e baixos e já estivemos em diversos locais, mas nunca fechamos nossas portas. Este trabalho, que tanto amo, jamais será abandonado. Atualmente, estamos localizados no <Link href="#contact" className="underline text-goldColor">Monte Alegre, ao lado da escola CAIC.</Link>
+            Queria agradecer de coração pela confiança ao longo desses anos todos. Cada vez que vocês pintam por aqui, é uma chance de deixar o seu estilo brilhar, mostrando quem você é de verdade. E, ó, se você ainda não veio conferir, apareci na Barbearia pra descobrir porque a galera escolhe a gente pra dar aquele tapa no visual e sair com todo estilo na rua!
           </p>
-          <br />
-          <p className="text-lg text-textBlack tracking-tighter leading-6 max-w-3xl">
-            Agradeço por confiarem em mim ao longo dos anos. Cada visita é uma oportunidade de criar um estilo que reflete sua personalidade e realça sua confiança. Venha me visitar e descubra por que a Barbearia John é a escolha certa para o seu estilo          </p>
         </div>
       </div>
     </section>

@@ -33,10 +33,6 @@ export default function SliderHero() {
       image: "/hero/5.jpg",
     },
     {
-      id: 6,
-      image: "/hero/6.jpeg",
-    },
-    {
       id: 7,
       image: "/hero/7.jpg",
     },
@@ -49,16 +45,8 @@ export default function SliderHero() {
       image: "/hero/9.jpg",
     },
     {
-      id: 13,
-      image: "/hero/13.jpeg",
-    },
-    {
       id: 16,
       image: "/hero/16.jpeg",
-    },
-    {
-      id: 17,
-      image: "/hero/17.jpeg",
     },
   ];
 

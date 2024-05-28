@@ -3,7 +3,7 @@ import { FaFacebookF } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <footer className="bg-WhiteColor text-black">
+    <footer className="bg-blackColor text-WhiteColor">
       <div className="flex flex-col gap-2 items-start md:flex-row md:items-center justify-between py-8 mx-auto max-w-5xl w-5/6">
         <p className="text-sm">
           © {new Date().getFullYear()} Barbearia John. Todos os direitos reservados.

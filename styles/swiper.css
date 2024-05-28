@@ -19,7 +19,7 @@
   height: 250px;
   
   @media (min-width: 768px) {
-    margin: 100px auto;
+    margin: 0px auto;
     width: 500px;
     height: 500px;
 
