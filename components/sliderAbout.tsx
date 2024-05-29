@@ -72,7 +72,7 @@ export default function SliderAbout() {
     >
       {aboutList.map((about) => (
         <Fragment key={about.id}>
-          <SwiperSlide className="">
+          <SwiperSlide>
             <Image src={about.image} alt="hero" width={450} height={400} />
           </SwiperSlide>
         </Fragment>

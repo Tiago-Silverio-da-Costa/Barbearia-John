@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa6";
 
@@ -9,13 +10,13 @@ export default function Footer() {
           © {new Date().getFullYear()} Barbearia John. Todos os direitos reservados.
         </p>
         <div className="flex items-center justify-center gap-2 text-2xl">
-          <a href="https://www.instagram.com/barbeariajohn/" target="_blank" rel="noreferrer" className="text-goldColor hover:text-WhiteColor transition-all duration-300">
+          <Link href="https://www.instagram.com/barbeariajohn/" target="_blank" rel="noreferrer" className="text-goldColor hover:text-WhiteColor transition-all duration-300">
             <FaInstagram />
-          </a>
+          </Link>
           <p className="text-goldColor">•</p>
-          <a href="https://www.facebook.com/barbeariajohn/" target="_blank" rel="noreferrer" className="text-goldColor hover:text-WhiteColor transition-all duration-300">
+          <Link href="https://www.facebook.com/barbeariajohn/" target="_blank" rel="noreferrer" className="text-goldColor hover:text-WhiteColor transition-all duration-300">
             <FaFacebookF />
-          </a>
+          </Link>
         </div>
       </div>
     </footer>

@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import Image from "next/image";
+import SliderHero from "./sliderHero";
 
 const didot = localFont({
   src: [
@@ -55,8 +56,8 @@ export default function Reviews() {
 
   return (
     <section>
-      <div className="flex flex-col md:flex-row justify-center items-center gap-2 md:gap-4 mx-auto max-w-5xl w-5/6">
-        <div className="flex flex-col justify-start mb-4 md:mb-0">
+      <div className="flex flex-col md:flex-row justify-center items-start md:items-end gap-2 md:gap-4 mx-auto max-w-5xl w-5/6">
+        <div className="flex flex-col justify-start">
           <p className={`${proximaNova.className} italic uppercase text-sm md:text-lg font-semibold`}>
             Reviews
           </p>
@@ -66,14 +67,13 @@ export default function Reviews() {
           <p className="text-lg text-textBlack tracking-tighter leading-6 max-w-xl">
             Em nossa barbearia, prezamos pela qualidade e satisfação de nossos clientes. Confira o que eles têm a dizer sobre nós:
           </p>
+          <div className="flex flex-col gap-2 mt-4">
+            <Image src="/reviews/1.png" alt="quote" width={500} height={500} />
+            <Image src="/reviews/2.png" alt="quote" width={500} height={500} />
+            <Image src="/reviews/4.png" alt="quote" width={500} height={500} />
+          </div>
         </div>
-        <div className="flex flex-col gap-2">
-
-          <Image src="/reviews/1.png" alt="quote" width={500} height={500} />
-          <Image src="/reviews/2.png" alt="quote" width={500} height={500} />
-          <Image src="/reviews/4.png" alt="quote" width={500} height={500} />
-        </div>
-        {/* <SliderReviews /> */}
+        <SliderHero />
       </div>
     </section>
   )

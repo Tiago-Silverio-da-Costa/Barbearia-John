@@ -58,7 +58,7 @@ export default function Hero() {
     <section id="home" className="bg-WhiteColor text-black">
       <div className="relative mx-auto max-w-5xl w-5/6 flex flex-col pt-20  items-start lg:flex-row justify-between lg:items-center py-16">
         <div className="flex flex-col">
-          <h1 className={`${proximaNova.className} uppercase text-sm md:text-lg font-semibold text-goldColor italic`}>Desde 2017</h1>
+          <h1 className={`${proximaNova.className} uppercase text-sm md:text-lg font-semibold text-blackColor italic`}>Desde 2017</h1>
           <h1 className={`${didot.className} uppercase text-6xl font-bold leading-[0.9] tracking-tighter max-w-32`}>
             Barbearia John
           </h1>
@@ -69,11 +69,11 @@ export default function Hero() {
         </div>
 
         <div className="relative z-20 mt-4 lg:mt-0 md:bg-gradient-to-br md:from-blackColor md:to-[#363536]">
-          <Image className="lg:m-2" src="/hero/heroDecorator.jpg" alt="hero" width={400} height={450} />
+          <Image className="lg:m-2" src="/hero/heroDecorator.jpg" alt="hero" width={300} height={450} />
         </div>
 
         <Image width={500} height={500} className="hidden lg:block rotate-[69deg] absolute top-[12rem] right-[52rem]" src="/hero/shave.png" alt="hero" objectFit="cover" />
-        <Image width={500} height={500} className="hidden lg:block rotate-[50deg] absolute top-[33rem] left-[-2rem]" src="/hero/tee.png" alt="hero" objectFit="cover" />
+        <Image width={500} height={500} className="hidden lg:block rotate-[50deg] absolute top-[33rem] left-[-2rem]" src="/hero/scissor.png" alt="hero" objectFit="cover" />
       </div>
     </section>
   )

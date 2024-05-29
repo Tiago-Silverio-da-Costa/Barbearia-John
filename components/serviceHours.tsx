@@ -30,7 +30,7 @@ export default function ServiceHours() {
   return (
     <section>
       <div className="flex flex-col justify-between items-start">
-        <div className="bg-WhiteColor text-blackColor rounded-md p-4 flex flex-col justify-center items-start w-full">
+        <div className="text-WhiteColor rounded-md flex flex-col justify-center items-start w-full">
           <p className="font-semibold">
             • Seg a Sex: <span className={`text-goldColor ${didot.className}`}>9:30</span> – <span className={`text-goldColor ${didot.className}`}>20:00</span>
           </p>
