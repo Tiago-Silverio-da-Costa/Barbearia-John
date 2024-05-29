@@ -69,7 +69,6 @@ export default function Hero() {
         </div>
 
         <Image width={300} height={300} className="hidden lg:block rotate-[69deg] absolute top-[4rem] right-[57rem]" src="/hero/shave.png" alt="hero" objectFit="cover" />
-        <Image width={300} height={300} className="hidden lg:block rotate-[61deg] absolute top-[22rem] left-[58rem]" src="/hero/scissor.png" alt="hero" objectFit="cover" />
       </div>
     </section>
   )
