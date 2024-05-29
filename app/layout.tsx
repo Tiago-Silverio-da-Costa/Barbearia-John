@@ -1,5 +1,4 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
 import "@/styles/globals.css";
 import localFont from "next/font/local";
 
@@ -29,7 +28,7 @@ const proximaNova = localFont({
 })
 
 export const viewport: Viewport = {
-	themeColor: "#000",
+	themeColor: "#201f20",
 };
 
 export const metadata: Metadata = {

@@ -1,6 +1,6 @@
-import SliderHero from "./sliderHero";
 import localFont from "next/font/local";
 import Image from "next/image";
+import { FaWhatsapp } from "react-icons/fa6";
 
 const didot = localFont({
   src: [
@@ -62,15 +62,18 @@ export default function Hero() {
           <h1 className={`${didot.className} uppercase text-6xl font-bold leading-[0.9] tracking-tighter max-w-32`}>
             Barbearia John
           </h1>
+          <a className={`${didot.className} flex gap-3 items-center justify-center text-WhiteColor bg-gradient-to-tr from-[#363536] via-blackColor to-black transition-all duration-200 hover:opacity-90 px-6 py-2 font-bold text-xl md:text-2xl`} href={`https://api.whatsapp.com/send?phone=${process.env.NUMBER}&text=Oi,%20Tudo%20bem!`}>
+            Agendar horário
+            <FaWhatsapp />
+          </a>
         </div>
 
         <div className="relative z-20 mt-4 lg:mt-0 md:bg-gradient-to-br md:from-blackColor md:to-[#363536]">
-          {/* <SliderHero /> */}
-          <Image className="m-2" src="/hero/heroDecorator.jpg" alt="hero" width={400} height={450} />
+          <Image className="lg:m-2" src="/hero/heroDecorator.jpg" alt="hero" width={400} height={450} />
         </div>
 
-      <Image width={500} height={500} className="hidden lg:block rotate-[69deg] absolute top-[12rem] right-[52rem]" src="/hero/shave.png" alt="hero"  objectFit="cover" />
-      <Image width={500} height={500} className="hidden lg:block rotate-[50deg] absolute top-[33rem] left-[-2rem]" src="/hero/tee.png" alt="hero"  objectFit="cover" />
+        <Image width={500} height={500} className="hidden lg:block rotate-[69deg] absolute top-[12rem] right-[52rem]" src="/hero/shave.png" alt="hero" objectFit="cover" />
+        <Image width={500} height={500} className="hidden lg:block rotate-[50deg] absolute top-[33rem] left-[-2rem]" src="/hero/tee.png" alt="hero" objectFit="cover" />
       </div>
     </section>
   )
