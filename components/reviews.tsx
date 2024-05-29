@@ -64,7 +64,7 @@ export default function Reviews() {
           <h1 className={`${didot.className} uppercase max-w-2xl text-goldColor leading-10 text-4xl font-bold mb-4`}>
             O que dizem sobre nós
           </h1>
-          <p className="text-lg text-textBlack tracking-tighter leading-6 max-w-xl">
+          <p className="text-lg text-WhiteColor tracking-tighter leading-6 max-w-xl">
             Em nossa barbearia, prezamos pela qualidade e satisfação de nossos clientes. Confira o que eles têm a dizer sobre nós:
           </p>
           <div className="flex flex-col gap-2 mt-4">

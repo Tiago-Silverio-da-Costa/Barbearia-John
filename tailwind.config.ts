@@ -17,7 +17,7 @@ const config: Config = {
         goldColor: "#d6a269",
         blackColor: "#201f20",
         WhiteColor: "#efefef",
-        textBlack: "#7e797b",
+        textBlack: "#b1aeaf",
       },
     },
   },

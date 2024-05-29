@@ -66,11 +66,11 @@ export default function About() {
               Cuidando do seu estilo com dedicação, excelência e atenção aos detalhes desde 2017
             </h1>
           </div>
-          <p className="text-lg text-textBlack tracking-tighter leading-6 max-w-3xl">
-            Desde 2017, a Barbearia John está na ativa, firme e forte, cuidando do seu visual com todo carinho e dedicação. Passamos por uns perrengues, mudamos de lugar umas vezes, mas nunca desistimos. Agora, tamo aqui no <Link href="#contact" className="underline text-goldColor">Monte Alegre, ao lado da escola CAIC.</Link>
+          <p className="text-lg tracking-tighter leading-6 max-w-3xl">
+            Desde 2017, a Barbearia John está na ativa, firme e forte, cuidando do seu visual com todo carinho e dedicação. Passamos por uns perrengues, mudamos de lugar umas vezes, mas nunca desistimos. Agora, tamo aqui no <Link href="#contact" className={`font-semibold  text-goldColor`}>Monte Alegre, ao lado da escola CAIC.</Link>
           </p>
           <br />
-          <p className="text-lg text-textBlack tracking-tighter leading-6 max-w-3xl">
+          <p className="text-lg tracking-tighter leading-6 max-w-3xl">
             Queria agradecer de coração pela confiança ao longo desses anos todos. Cada vez que vocês pintam por aqui, é uma chance de deixar o seu estilo brilhar, mostrando quem você é de verdade. E, ó, se você ainda não veio conferir, apareci na Barbearia pra descobrir porque a galera escolhe a gente pra dar aquele tapa no visual e sair com todo estilo na rua!
           </p>
         </div>

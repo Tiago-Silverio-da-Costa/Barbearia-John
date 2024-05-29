@@ -64,7 +64,7 @@ export default function Services() {
               O que estamos oferecendo:
             </h1>
           </div>
-          <div className="flex flex-col gap-4">
+          <div className="font-semibold flex flex-col gap-4">
 
             <div className="flex justify-between gap-2 items-end">
               <p className="flex gap-4 items-center text-lg">Corte de cabelo</p>

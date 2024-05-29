@@ -62,7 +62,7 @@ export default function Hero() {
           <h1 className={`${didot.className} uppercase text-6xl font-bold leading-[0.9] tracking-tighter max-w-32`}>
             Barbearia John
           </h1>
-          <a className={`${didot.className} flex gap-3 items-center justify-center text-WhiteColor bg-gradient-to-tr from-[#363536] via-blackColor to-black transition-all duration-200 hover:opacity-90 px-6 py-2 font-bold text-xl md:text-2xl`} href={`https://api.whatsapp.com/send?phone=${process.env.NUMBER}&text=Oi,%20Tudo%20bem!`}>
+          <a className={`${didot.className} mt-2 flex gap-3 items-center justify-center text-WhiteColor bg-gradient-to-tr from-[#363536] via-blackColor to-black transition-all duration-200 hover:opacity-90 px-6 py-2 font-bold text-xl md:text-2xl`} href={`https://api.whatsapp.com/send?phone=${process.env.NUMBER}&text=Oi,%20Tudo%20bem!`}>
             Agendar horário
             <FaWhatsapp />
           </a>
