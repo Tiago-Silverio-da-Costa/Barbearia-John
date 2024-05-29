@@ -9,28 +9,28 @@ import "@/styles/swiper.css";
 import Image from "next/image";
 import { Fragment } from "react";
 
-interface HeroProps {
+interface ReviewProps {
   image: string;
   id: number;
 }
 
-export default function SliderHero() {
-  const heroList: HeroProps[] = [
+export default function SliderReview() {
+  const reviewList: ReviewProps[] = [
     {
       id: 1,
-      image: "/hero/1.jpg",
+      image: "/review/1.jpg",
     },
     {
       id: 2,
-      image: "/hero/2.jpg",
+      image: "/review/2.jpg",
     },
     {
       id: 8,
-      image: "/hero/8.jpeg",
+      image: "/review/8.jpeg",
     },
     {
       id: 16,
-      image: "/hero/16.jpeg",
+      image: "/review/16.jpeg",
     },
   ];
 
@@ -46,10 +46,10 @@ export default function SliderHero() {
       slidesPerView={1}
       className="mySwiper"
     >
-      {heroList.map((hero) => (
+      {reviewList.map((hero) => (
         <Fragment key={hero.id}>
           <SwiperSlide>
-            <Image src={hero.image} alt="hero" width={400} height={450} />
+            <Image src={hero.image} alt="happy clients" width={400} height={450} />
           </SwiperSlide>
         </Fragment>
       ))}
