@@ -64,8 +64,8 @@ export default function SliderHero() {
     >
       {heroList.map((hero) => (
         <Fragment key={hero.id}>
-          <SwiperSlide className="">
-            <Image src={hero.image} alt="hero" width={450} height={400} />
+          <SwiperSlide>
+            <Image className="border-4 border-black" src={hero.image} alt="hero" width={350} height={450} />
           </SwiperSlide>
         </Fragment>
       ))}

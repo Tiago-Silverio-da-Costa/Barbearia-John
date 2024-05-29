@@ -9,11 +9,11 @@ export default function Footer() {
           © {new Date().getFullYear()} Barbearia John. Todos os direitos reservados.
         </p>
         <div className="flex items-center justify-center gap-2 text-2xl">
-          <a href="https://www.instagram.com/barbeariajohn/" target="_blank" rel="noreferrer" className="text-goldColor hover:text-blackColor transition-all duration-300">
+          <a href="https://www.instagram.com/barbeariajohn/" target="_blank" rel="noreferrer" className="text-goldColor hover:text-WhiteColor transition-all duration-300">
             <FaInstagram />
           </a>
           <p className="text-goldColor">•</p>
-          <a href="https://www.facebook.com/barbeariajohn/" target="_blank" rel="noreferrer" className="text-goldColor hover:text-blackColor transition-all duration-300">
+          <a href="https://www.facebook.com/barbeariajohn/" target="_blank" rel="noreferrer" className="text-goldColor hover:text-WhiteColor transition-all duration-300">
             <FaFacebookF />
           </a>
         </div>

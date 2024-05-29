@@ -40,7 +40,6 @@ export default function Header() {
     <header className="bg-WhiteColor">
       <div className="flex items-center justify-between mx-auto max-w-5xl w-5/6 py-8">
         <h1 className="uppercase text-black font-black text-2xl">John</h1>
-        {/* TODO: fazer toggle menu */}
         <nav className="items-center justify-center hidden md:flex">
           <ul className="flex gap-4">
             <li>
@@ -80,16 +79,16 @@ export default function Header() {
                 <AiOutlineCloseSquare />
               </button>
               <ul className="flex flex-col gap-4 mt-8">
-                <li>
+                <li onClick={() => setOpenPopup(false)}>
                   <Link className="text-goldColor font-bold hover:text-blackColor transition-all duration-300" href="#home">Ínicio</Link>{/* e galeria */}
                 </li>
-                <li>
+                <li onClick={() => setOpenPopup(false)}>
                   <Link className="text-goldColor font-bold hover:text-blackColor transition-all duration-300" href="#services">Serviços</Link>
                 </li>
-                <li>
+                <li onClick={() => setOpenPopup(false)}>
                   <Link className="text-goldColor font-bold hover:text-blackColor transition-all duration-300" href="#about">Sobre</Link>{/* e reviews */}
                 </li>
-                <li>
+                <li onClick={() => setOpenPopup(false)}>
                   <Link className="text-goldColor font-bold hover:text-blackColor transition-all duration-300" href="#contact">Contato</Link>
                 </li>
               </ul>
