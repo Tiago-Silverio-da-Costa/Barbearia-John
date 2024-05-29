@@ -3,7 +3,10 @@
 Este é o repositório do projeto da Barbearia John, um website em desenvolvimento destinado a oferecer uma experiência completa e conveniente para nossos clientes. O objetivo principal deste site é facilitar o agendamento de horários na Barbearia John, proporcionando acesso rápido ao chat do WhatsApp para reserva de horários.
 
 ## V1
-![johnsite](public/john.gif)
+![johnsitev1](public/john.gif)
+
+## V2
+![johnsitev2](public/john2.gif)
 
 ## Funcionalidades Principais
 
