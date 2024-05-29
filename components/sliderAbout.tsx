@@ -17,28 +17,12 @@ interface AboutProps {
 export default function SliderAbout() {
   const aboutList: AboutProps[] = [
     {
-      id: 1,
-      image: "/about/1.jpg",
-    },
-    {
-      id: 2,
-      image: "/about/2.jpg",
-    },
-    {
-      id: 3,
-      image: "/about/3.jpg",
-    },
-    {
-      id: 7,
-      image: "/about/7.jpg",
-    },
-    {
       id: 8,
       image: "/about/8.jpeg",
     },
     {
-      id: 11,
-      image: "/about/11.jpg",
+      id: 14,
+      image: "/about/14.jpg",
     },
     {
       id: 13,
@@ -48,14 +32,6 @@ export default function SliderAbout() {
       id: 15,
       image: "/about/15.jpg",
     },
-    {
-      id: 16,
-      image: "/about/16.jpg",
-    },
-    {
-      id: 17,
-      image: "/about/17.jpg",
-    }
   ];
 
   return (

@@ -68,12 +68,8 @@ export default function Hero() {
           </a>
         </div>
 
-        <div className="relative z-20 mt-4 lg:mt-0 md:bg-gradient-to-br md:from-blackColor md:to-[#363536]">
-          <Image className="lg:m-2" src="/hero/heroDecorator.jpg" alt="hero" width={300} height={450} />
-        </div>
-
-        <Image width={500} height={500} className="hidden lg:block rotate-[69deg] absolute top-[12rem] right-[52rem]" src="/hero/shave.png" alt="hero" objectFit="cover" />
-        <Image width={500} height={500} className="hidden lg:block rotate-[50deg] absolute top-[33rem] left-[-2rem]" src="/hero/scissor.png" alt="hero" objectFit="cover" />
+        <Image width={300} height={300} className="hidden lg:block rotate-[69deg] absolute top-[4rem] right-[57rem]" src="/hero/shave.png" alt="hero" objectFit="cover" />
+        <Image width={300} height={300} className="hidden lg:block rotate-[61deg] absolute top-[22rem] left-[58rem]" src="/hero/scissor.png" alt="hero" objectFit="cover" />
       </div>
     </section>
   )

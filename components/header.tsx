@@ -29,6 +29,7 @@ export default function Header() {
           </ul>
         </nav>
         <button
+          type="button"
           className="md:hidden text-goldColor text-2xl"
           onClick={() => setOpenPopup(!openPopup)}
         >
@@ -40,6 +41,7 @@ export default function Header() {
             <nav className="md:hidden fixed top-0 left-0 w-full h-full bg-blackColor z-50 flex flex-col items-center justify-center">
               <h1 className="uppercase text-WhiteColor font-black text-2xl">John</h1>
               <button
+              type="button"
                 className="absolute top-4 right-4 text-goldColor text-2xl"
                 onClick={() => setOpenPopup(false)}
               >

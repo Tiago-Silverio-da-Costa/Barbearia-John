@@ -25,24 +25,8 @@ export default function SliderHero() {
       image: "/hero/2.jpg",
     },
     {
-      id: 3,
-      image: "/hero/3.jpg",
-    },
-    {
-      id: 5,
-      image: "/hero/5.jpg",
-    },
-    {
-      id: 7,
-      image: "/hero/7.jpg",
-    },
-    {
       id: 8,
       image: "/hero/8.jpeg",
-    },
-    {
-      id: 9,
-      image: "/hero/9.jpg",
     },
     {
       id: 16,
