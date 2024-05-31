@@ -53,9 +53,6 @@ export const metadata: Metadata = {
 		locale: "pt-BR",
 		type: "website",
 	},
-	robots: {
-		index: process.env.VERCEL_ENV === "production",
-	},
 	twitter: {
 		card: "summary_large_image",
 		title:

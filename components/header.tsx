@@ -15,16 +15,16 @@ export default function Header() {
         <nav className="items-center justify-center hidden md:flex">
           <ul className="flex gap-4">
             <li>
-              <Link className="text-goldColor font-bold hover:text-WhiteColor transition-all duration-300" href="#home">Ínicio</Link>{/* e galeria */}
+              <Link className="text-goldColor font-bold hover:text-WhiteColor transition-all duration-300" href="/#home">Ínicio</Link>
             </li>
             <li>
-              <Link className="text-goldColor font-bold hover:text-WhiteColor transition-all duration-300" href="#services">Serviços</Link>
+              <Link className="text-goldColor font-bold hover:text-WhiteColor transition-all duration-300" href="/#services">Serviços</Link>
             </li>
             <li>
-              <Link className="text-goldColor font-bold hover:text-WhiteColor transition-all duration-300" href="#about">Sobre nós</Link>{/* e reviews */}
+              <Link className="text-goldColor font-bold hover:text-WhiteColor transition-all duration-300" href="/#about">Sobre nós</Link>
             </li>
             <li>
-              <Link className="text-goldColor font-bold hover:text-WhiteColor transition-all duration-300" href="#contact">Contato</Link>
+              <Link className="text-goldColor font-bold hover:text-WhiteColor transition-all duration-300" href="/#contact">Contato</Link>
             </li>
           </ul>
         </nav>

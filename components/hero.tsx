@@ -67,8 +67,6 @@ export default function Hero() {
             <FaWhatsapp />
           </a>
         </div>
-
-        <Image width={300} height={300} className="hidden lg:block rotate-[69deg] absolute top-[4rem] right-[57rem]" src="/hero/shave.png" alt="hero" objectFit="cover" />
       </div>
     </section>
   )
