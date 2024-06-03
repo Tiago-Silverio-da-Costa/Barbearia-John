@@ -3,28 +3,28 @@ import "@/styles/globals.css";
 import localFont from "next/font/local";
 
 const proximaNova = localFont({
-  src: [
-    {
-      path: "../public/fonts/ProximaNovaBold.otf",
-      weight: "700",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/ProximaNovaBoldItalic.otf",
-      weight: "700",
-      style: "italic",
-    },
-    {
-      path: "../public/fonts/ProximaNovaRegular.otf",
-      weight: "500",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/ProximaNovaRegularItalic.otf",
-      weight: "500",
-      style: "italic",
-    },
-  ],
+	src: [
+		{
+			path: "../public/fonts/ProximaNovaBold.otf",
+			weight: "700",
+			style: "normal",
+		},
+		{
+			path: "../public/fonts/ProximaNovaBoldItalic.otf",
+			weight: "700",
+			style: "italic",
+		},
+		{
+			path: "../public/fonts/ProximaNovaRegular.otf",
+			weight: "500",
+			style: "normal",
+		},
+		{
+			path: "../public/fonts/ProximaNovaRegularItalic.otf",
+			weight: "500",
+			style: "italic",
+		},
+	],
 })
 
 export const viewport: Viewport = {
@@ -37,6 +37,7 @@ export const metadata: Metadata = {
 	metadataBase: new URL("https://barbeariajohn.com"),
 	description:
 		"Corte de cabelo masculino e infantil. Agende seu horário e venha fazer um corte conosco.",
+	keywords: "barbearia, corte de cabelo, cabelo masculino, cabelo infantil, agendamento, corte de cabelo masculino, corte de cabelo infantil, barbeiro, Barbearia John",
 	openGraph: {
 		title:
 			"Barbearia John – Agende seu horário e venha fazer um corte conosco.",
@@ -65,13 +66,13 @@ export const metadata: Metadata = {
 
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode;
+	children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body className={proximaNova.className}>{children}</body>
-    </html>
-  );
+	return (
+		<html lang="en">
+			<body className={proximaNova.className}>{children}</body>
+		</html>
+	);
 }
