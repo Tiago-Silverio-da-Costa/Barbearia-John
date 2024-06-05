@@ -11,7 +11,7 @@ export default function Footer() {
         </p>
         <div className="flex items-center justify-center gap-2 text-2xl">
           <Link
-            href="https://www.instagram.com/barbeariajohn/"
+            href="https://www.instagram.com/barbeariajohnn/"
             target="_blank"
             rel="noreferrer"
             className="text-goldColor hover:text-WhiteColor transition-all duration-300"
@@ -21,7 +21,7 @@ export default function Footer() {
           </Link>
           <p className="text-goldColor">•</p>
           <Link
-            href="https://www.facebook.com/barbeariajohn/"
+            href="https://www.facebook.com/barbeariajohnn/"
             target="_blank"
             rel="noreferrer"
             className="text-goldColor hover:text-WhiteColor transition-all duration-300"
