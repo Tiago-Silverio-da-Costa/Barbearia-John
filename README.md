@@ -15,7 +15,6 @@ Este é o repositório do projeto da Barbearia John, um website em desenvolvimen
 - **Redes Sociais:** Links para as redes sociais da Barbearia John para manter os clientes atualizados sobre as últimas novidades e promoções.
 - **Preços:** Lista de preços dos serviços oferecidos pela barbearia.
 - **Horário de Atendimento:** Horários de funcionamento da barbearia para maior conveniência dos clientes.
-- **Galeria de Fotos:** Uma galeria de fotos para os clientes conhecerem o espaço e os serviços oferecidos.
 - **Reviews de Clientes:** Opiniões e avaliações de clientes sobre os serviços prestados pela barbearia.
 
 ## Tecnologias Utilizadas
