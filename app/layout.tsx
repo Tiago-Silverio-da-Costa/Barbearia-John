@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "@/styles/globals.css";
 import localFont from "next/font/local";
+import Script from "next/script";
 
 const proximaNova = localFont({
 	src: [
@@ -72,7 +73,31 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={proximaNova.className}>{children}</body>
+			<Script async src="https://www.googletagmanager.com/gtag/js?id=G-YX55D1314H"></Script>
+			<Script
+				id="gtm"
+				strategy="afterInteractive"
+				dangerouslySetInnerHTML={{
+					__html: `
+						window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YX55D1314H');
+					`
+				}}
+			/>
+			<body className={proximaNova.className}>
+			<noscript 
+			dangerouslySetInnerHTML={{
+				__html: `
+					<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWMQFS6D"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+				`
+			}}
+			/>
+				{children}
+				</body>
 		</html>
 	);
 }
