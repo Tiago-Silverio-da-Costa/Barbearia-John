@@ -31,11 +31,17 @@ export default function ServiceHours() {
     <section>
       <div className="flex flex-col justify-between items-start">
         <div className="text-WhiteColor rounded-md flex flex-col justify-center items-start w-full">
-          <p className="font-semibold">
-            • Seg a Sex: <span className={`text-goldColor ${didot.className}`}>9:30</span> – <span className={`text-goldColor ${didot.className}`}>20:00</span>
+        <p className="font-semibold">
+            • Seg: <span className={`text-goldColor ${didot.className}`}>12:00</span> – <span className={`text-goldColor ${didot.className}`}>17:00</span>
           </p>
           <p className="font-semibold">
-            • Sáb a Dom: <span className={`text-goldColor ${didot.className}`}>10:00</span> – <span className={`text-goldColor ${didot.className}`}>20:00</span>
+            • Ter a Sex: <span className={`text-goldColor ${didot.className}`}>9:30</span> – <span className={`text-goldColor ${didot.className}`}>20:00</span>
+          </p>
+          <p className="font-semibold">
+            • Sáb: <span className={`text-goldColor ${didot.className}`}>10:00</span> – <span className={`text-goldColor ${didot.className}`}>20:00</span>
+          </p>
+          <p className="font-semibold">
+            • Dom: <span className="text-goldColor">Fechado</span>
           </p>
           <p className="font-semibold">
             • Feriados: <span className={`text-goldColor ${didot.className}`}>10:00</span> – <span className={`text-goldColor ${didot.className}`}>20:00</span>

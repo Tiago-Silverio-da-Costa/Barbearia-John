@@ -71,7 +71,7 @@ export default function Services() {
               {/* <p className="text-sm text-gray-500">
                 ...............................................................
               </p> */}
-              <p className={`${didot.className} text-lg text-goldColor`}>R$ 25,00</p>
+              <p className={`${didot.className} text-3xl text-goldColor`}>R$ 25,00</p>
             </div>
 
             <div className="flex justify-between gap-2 items-end">
@@ -79,7 +79,7 @@ export default function Services() {
               {/* <p className="text-sm text-gray-500">
                 ......................................................................................
               </p> */}
-              <p className={`${didot.className} text-lg text-goldColor`}>R$ 25,00</p>
+              <p className={`${didot.className} text-3xl text-goldColor`}>R$ 25,00</p>
             </div>
 
             <div className="flex justify-between gap-2 items-end">
@@ -87,7 +87,7 @@ export default function Services() {
               {/* <p className="text-sm text-gray-500">
                 ................................................................
               </p> */}
-              <p className={`${didot.className} text-lg text-goldColor`}>R$ 50,00</p>
+              <p className={`${didot.className} text-3xl text-goldColor`}>R$ 50,00</p>
             </div>
 
             <div className="flex justify-between gap-2 items-end">
@@ -95,7 +95,7 @@ export default function Services() {
               {/* <p className="text-sm text-gray-500">
                 ........................................................................
               </p> */}
-              <p className={`${didot.className} text-lg text-goldColor`}>R$ 25,00</p>
+              <p className={`${didot.className} text-3xl text-goldColor`}>R$ 25,00</p>
             </div>
           </div>
         </div>
