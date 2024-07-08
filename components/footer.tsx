@@ -1,13 +1,14 @@
 import Link from "next/link";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa6";
+import Image from "next/image";
 
 export default function Footer() {
   return (
     <footer className="bg-blackColor text-WhiteColor">
-      <div className="flex flex-col gap-2 items-start md:flex-row md:items-center justify-between py-8 mx-auto max-w-5xl w-5/6">
-        <p className="text-sm">
-          © {new Date().getFullYear()} Barbearia John | Desenvolvido por <a aria-label="Tiago S. C." href="https://github.com/Tiago-Silverio-da-Costa" target="_blank" className="text-blue-500">Tiago S. C.</a>
+      <div className="flex flex-col gap-2 md:flex-row items-center justify-between py-8 mx-auto max-w-5xl w-5/6">
+        <p className="text-sm text-center">
+          © {new Date().getFullYear()} Barbearia John
         </p>
         <div className="flex items-center justify-center gap-2 text-2xl">
           <Link
@@ -30,6 +31,7 @@ export default function Footer() {
             <FaFacebookF />
           </Link>
         </div>
+        <Image  src="/logo.png" alt="" width={70} height={100} />
       </div>
     </footer>
   );

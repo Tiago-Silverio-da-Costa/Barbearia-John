@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { ImMenu } from "react-icons/im";
 import { AiOutlineCloseSquare } from "react-icons/ai";
+import Image from "next/image";
 
 export default function Header() {
   const [openPopup, setOpenPopup] = useState(false);
@@ -11,7 +12,7 @@ export default function Header() {
   return (
     <header className="bg-blackColor">
       <div className="flex items-center justify-between mx-auto max-w-5xl w-5/6 py-8">
-        <h1 className="uppercase text-WhiteColor font-black text-2xl">John</h1>
+      <Image  src="/logo.png" alt="" width={100} height={100} />
         <nav className="items-center justify-center hidden md:flex">
           <ul className="flex gap-4">
             <li>
@@ -40,7 +41,8 @@ export default function Header() {
         {
           openPopup && (
             <nav className="md:hidden fixed top-0 left-0 w-full h-full bg-blackColor z-50 flex flex-col items-center justify-center">
-              <h1 className="uppercase text-WhiteColor font-black text-2xl">John</h1>
+              {/* <h1 className="uppercase text-WhiteColor font-black text-2xl">John</h1> */}
+              <Image  src="/logo.png" alt="" width={100} height={100} />
               <button
                 aria-label="Fechar"
                 type="button"

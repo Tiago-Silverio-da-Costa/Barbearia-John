@@ -35,7 +35,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
 	title:
 		"Barbearia John – Agende seu horário e venha fazer um corte conosco.",
-	metadataBase: new URL("https://barbeariajohn.com"),
+	metadataBase: new URL("https://barbeariajohn.com.br"),
 	description:
 		"Corte de cabelo masculino e infantil. Agende seu horário e venha fazer um corte conosco.",
 	keywords: "barbearia, corte de cabelo, cabelo masculino, cabelo infantil, agendamento, corte de cabelo masculino, corte de cabelo infantil, barbeiro, Barbearia John",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
 		siteName: "Barbearia John – Agende seu horário e venha fazer um corte conosco.",
 		images: [
 			{
-				url: "https://barbeariajohn.com/barbeariajohn-banner.png",
+				url: "https://barbeariajohn.com.br/barbeariajohn-banner.png",
 				width: 1280,
 				height: 720,
 			},
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
 			"Barbearia John – Agende seu horário e venha fazer um corte conosco.",
 		description:
 			"Corte de cabelo masculino e infantil. Agende seu horário e venha fazer um corte conosco.",
-		images: ["https://barbeariajohn.com/barbeariajohn-banner.png"],
+		images: ["https://barbeariajohn.com.br/barbeariajohn-banner.png"],
 	},
 };
 
