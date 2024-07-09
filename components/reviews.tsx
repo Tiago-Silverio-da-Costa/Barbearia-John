@@ -59,7 +59,7 @@ export default function Reviews() {
       <div className="flex flex-col md:flex-row justify-center items-start md:items-end gap-2 md:gap-4 mx-auto max-w-5xl w-5/6">
         <div className="flex flex-col justify-start">
           <p className={`${proximaNova.className} italic uppercase text-sm md:text-lg font-semibold`}>
-            Reviews
+            Avaliações
           </p>
           <h1 className={`${didot.className} uppercase max-w-2xl text-goldColor leading-10 text-4xl font-bold mb-4`}>
             O que dizem sobre nós

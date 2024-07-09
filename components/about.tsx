@@ -67,10 +67,12 @@ export default function About() {
             </h1>
           </div>
           <p className="text-lg tracking-tighter leading-6 max-w-3xl">
-          Desde 2017, a Barbearia John está na ativa, firme e forte, cuidando do seu visual com todo carinho e dedicação. Passamos por uns perrengues na pandemia, mudamos de lugar umas vezes, mas nunca desistimos. Agora, tamo aqui no <strong><Link href="#contact" className={`text-goldColor`}>Monte Alegre, ao lado da escola CAIC, Camboriú</Link></strong>
-          </p>
+          Desde 2017, a Barbearia John está na ativa, firme e forte, cuidando do seu visual com todo carinho e dedicação. Somos uma barbearia tradicional e familiar que oferece cortes de cabelo com qualidade, atendimento personalizado e preço justo. 
           <br />
-          <p className="text-lg tracking-tighter leading-6 max-w-3xl">
+          <br />
+          Passamos por uns perrengues na pandemia, mudamos de lugar umas vezes, mas nunca desistimos. Agora, estamos aqui no <strong><Link aria-label="Barbearia John em Monte Alegre (Camboriú)" href="#contact" className={`text-goldColor`}>Monte Alegre, ao lado da escola CAIC, Camboriú</Link></strong>.
+          <br />
+          <br />
           Queria agradecer de coração pela confiança ao longo desses anos todos. Se você ainda não veio conferir, venha conhecer a barbearia pra descobrir porque a galera escolhe a gente pra dar aquele tapa no visual e sair com todo estilo na rua!
           </p>
         </div>

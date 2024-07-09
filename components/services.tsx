@@ -61,41 +61,29 @@ export default function Services() {
               Lista de serviços
             </p>
             <h1 className={`${didot.className} uppercase max-w-2xl text-goldColor leading-10 text-4xl font-bold mb-4`}>
-              O que estamos oferecendo:
+            Nossos serviços de excelência para você:
             </h1>
           </div>
           <div className="font-semibold flex flex-col gap-4">
 
             <div className="flex justify-between gap-2 items-end">
-              <p className="flex gap-4 items-center text-lg">Corte de cabelo</p>
-              {/* <p className="text-sm text-gray-500">
-                ...............................................................
-              </p> */}
-              <p className={`${didot.className} text-3xl text-goldColor`}>R$ 25,00</p>
+              <p className="flex gap-4 items-center text-lg">Corte masculino</p>
+              <p className={`text-2xl text-goldColor`}>R$ 25,00</p>
             </div>
 
             <div className="flex justify-between gap-2 items-end">
-              <p className="text-lg">Barba</p>
-              {/* <p className="text-sm text-gray-500">
-                ......................................................................................
-              </p> */}
-              <p className={`${didot.className} text-3xl text-goldColor`}>R$ 25,00</p>
+              <p className="text-lg">Design de barba</p>
+              <p className={` text-2xl text-goldColor`}>R$ 25,00</p>
             </div>
 
             <div className="flex justify-between gap-2 items-end">
-              <p className="text-lg">Cabelo + Barba</p>
-              {/* <p className="text-sm text-gray-500">
-                ................................................................
-              </p> */}
-              <p className={`${didot.className} text-3xl text-goldColor`}>R$ 50,00</p>
+              <p className="text-lg">Cabelo + Barba (combo)</p>
+              <p className={` text-2xl text-goldColor`}>R$ 50,00</p>
             </div>
 
             <div className="flex justify-between gap-2 items-end">
-              <p className="text-lg">Sobrancelha</p>
-              {/* <p className="text-sm text-gray-500">
-                ........................................................................
-              </p> */}
-              <p className={`${didot.className} text-3xl text-goldColor`}>R$ 25,00</p>
+              <p className="text-lg">Designer de sobrancelha</p>
+              <p className={` text-2xl text-goldColor`}>R$ 25,00</p>
             </div>
           </div>
         </div>

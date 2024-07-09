@@ -7,8 +7,8 @@ export default function Footer() {
   return (
     <footer className="bg-blackColor text-WhiteColor">
       <div className="flex flex-col gap-2 md:flex-row items-center justify-between py-8 mx-auto max-w-5xl w-5/6">
-        <p className="text-sm text-center">
-          © {new Date().getFullYear()} Barbearia John
+        <p className="text-sm text-center max-w-72">
+          © {new Date().getFullYear()} Barbearia John - Corte de cabelo masculino e infantil em Camboriú.
         </p>
         <div className="flex items-center justify-center gap-2 text-2xl">
           <Link
