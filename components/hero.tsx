@@ -58,7 +58,7 @@ export default function Hero() {
     <section id="home" className="bg-WhiteColor text-black">
       <div className="relative mx-auto max-w-5xl w-5/6 flex flex-col pt-20  items-start lg:flex-row justify-between lg:items-center py-16">
         <div className="flex flex-col">
-          <h1 className={`${proximaNova.className} uppercase text-sm md:text-lg font-semibold text-blackColor italic`}>Desde 2017</h1>
+          <h1 className={`${proximaNova.className} uppercase text-sm md:text-lg font-semibold text-blackColor italic`}>Desde 2017 em camboriú</h1>
           <h1 className={`${didot.className} uppercase text-6xl font-bold leading-[0.9] tracking-tighter max-w-32`}>
             Barbearia John
           </h1>

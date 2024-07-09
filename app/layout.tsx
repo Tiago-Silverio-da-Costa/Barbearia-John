@@ -34,23 +34,38 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
 	title:
-		"Barbearia John – Agende seu horário e venha fazer um corte conosco.",
+		"Barbearia John Official em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado",
 	metadataBase: new URL("https://barbeariajohn.com.br"),
 	description:
-		"Corte de cabelo masculino e infantil. Agende seu horário e venha fazer um corte conosco.",
-	keywords: "barbearia, corte de cabelo, cabelo masculino, cabelo infantil, agendamento, corte de cabelo masculino, corte de cabelo infantil, barbeiro, Barbearia John",
+		"Cortes de cabelo masculinos e infantis com agendamento online em Camboriú! Agende seu horário e aproveite nosso desconto exclusivo. Barbearia John Official (Rua Lauro Francisco dos Santos, 944, Monte Alegre). Contato: 47 9 9771-3257. Acesse: barbeariajohn.com.br",
+	keywords:["barbearia em Camboriu", "corte de cabelo masculino Camboriu", "corte de cabelo masculino barato Camboriú", "barbearia infantil Centro Camboriú", "barbeiro experiente Monte Alegre Camboriú" ,"corte de cabelo infantil Camboriu", "agendamento online barbearia", "agendamento online corte de cabelo", "desconto corte de cabelo", "barbeiro profissional", "melhor barbearia Camboriu", "barbearia infantil Camboriu", "Monte alegre barbearia", "barba e cabelo Camboriu"],
 	openGraph: {
 		title:
-			"Barbearia John – Agende seu horário e venha fazer um corte conosco.",
+			"Barbearia John Official em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado",
 		description:
-			"Corte de cabelo masculino e infantil. Agende seu horário e venha fazer um corte conosco.",
-		siteName: "Barbearia John – Agende seu horário e venha fazer um corte conosco.",
+			"Cortes de cabelo masculinos e infantis com agendamento online em Camboriú! Agende seu horário e aproveite nosso desconto exclusivo. Barbearia John Official (Rua Lauro Francisco dos Santos, 944, Monte Alegre). Contato: 47 9 9771-3257. Acesse: barbeariajohn.com.br",
+		siteName: "Barbearia John Official em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado",
 		images: [
 			{
-				url: "https://barbeariajohn.com.br/barbeariajohn-banner.png",
+				url: "https://barbeariajohn.com.br/barbeariajohn-banner-logo.png",
 				width: 1280,
 				height: 720,
 			},
+			{
+				url: "https://barbeariajohn.com.br/barbeariajohn-banner-presentation.png",
+				width: 1280,
+				height: 720,
+			},
+			{
+				url: "https://barbeariajohn.com.br/barbeariajohn-banner-infantil.png",
+				width: 1280,
+				height: 720,
+			},
+			{
+				url: "https://barbeariajohn.com.br/barbeariajohn-banner-horarios.png",
+				width: 1280,
+				height: 720,
+			}
 		],
 		locale: "pt-BR",
 		type: "website",
@@ -58,10 +73,10 @@ export const metadata: Metadata = {
 	twitter: {
 		card: "summary_large_image",
 		title:
-			"Barbearia John – Agende seu horário e venha fazer um corte conosco.",
+			"Barbearia John Official em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado",
 		description:
-			"Corte de cabelo masculino e infantil. Agende seu horário e venha fazer um corte conosco.",
-		images: ["https://barbeariajohn.com.br/barbeariajohn-banner.png"],
+			"Cortes de cabelo masculinos e infantis com agendamento online em Camboriú! Agende seu horário e aproveite nosso desconto exclusivo. Barbearia John Official (Rua Lauro Francisco dos Santos, 944, Monte Alegre). Contato: 47 9 9771-3257. Acesse: barbeariajohn.com.br",
+		images: ["https://barbeariajohn.com.br/barbeariajohn-twitter-banner.png"],
 	},
 };
 

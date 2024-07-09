@@ -67,7 +67,7 @@ export default function About() {
             </h1>
           </div>
           <p className="text-lg tracking-tighter leading-6 max-w-3xl">
-          Desde 2017, a Barbearia John está na ativa, firme e forte, cuidando do seu visual com todo carinho e dedicação. Passamos por uns perrengues na pandemia, mudamos de lugar umas vezes, mas nunca desistimos. Agora, tamo aqui no <Link href="#contact" className={`font-semibold  text-goldColor`}>Monte Alegre, ao lado da escola CAIC.</Link>
+          Desde 2017, a Barbearia John está na ativa, firme e forte, cuidando do seu visual com todo carinho e dedicação. Passamos por uns perrengues na pandemia, mudamos de lugar umas vezes, mas nunca desistimos. Agora, tamo aqui no <strong><Link href="#contact" className={`text-goldColor`}>Monte Alegre, ao lado da escola CAIC, Camboriú</Link></strong>
           </p>
           <br />
           <p className="text-lg tracking-tighter leading-6 max-w-3xl">

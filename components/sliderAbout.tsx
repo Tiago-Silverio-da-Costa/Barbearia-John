@@ -49,7 +49,7 @@ export default function SliderAbout() {
       {aboutList.map((about) => (
         <Fragment key={about.id}>
           <SwiperSlide>
-            <Image src={about.image} alt="clients haircut" width={450} height={400} />
+            <Image src={about.image} alt="Cortes de cabelo impecáveis na Barbearia John em Camboriú: Satisfação garantida para todos os clientes!" width={450} height={400} />
           </SwiperSlide>
         </Fragment>
       ))}

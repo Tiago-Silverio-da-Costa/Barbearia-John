@@ -31,7 +31,7 @@ export default function Footer() {
             <FaFacebookF />
           </Link>
         </div>
-        <Image  src="/logo.png" alt="" width={70} height={100} />
+        <Image  src="/logo.png" alt="Logo da Barbearia John em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado" width={70} height={100} />
       </div>
     </footer>
   );

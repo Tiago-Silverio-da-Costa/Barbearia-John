@@ -68,9 +68,9 @@ export default function Reviews() {
             Em nossa barbearia, prezamos pela qualidade e satisfação de nossos clientes. Confira o que eles têm a dizer sobre nós:
           </p>
           <div className="flex flex-col gap-2 mt-4">
-            <Image src="/reviews/1.png" alt="quote" width={500} height={500} />
-            <Image src="/reviews/2.png" alt="quote" width={500} height={500} />
-            <Image src="/reviews/4.png" alt="quote" width={500} height={500} />
+            <Image src="/reviews/reviewromulofariasg.png" alt="Avaliação de cliente satisfeito com a Barbearia John em Camboriú: Romulo farias g" width={500} height={500} />
+            <Image src="/reviews/reviewfabioandressanago.png" alt="Avaliação de cliente satisfeito com a Barbearia John em Camboriú: Fabio Andressa Nago" width={500} height={500} />
+            <Image src="/reviews/reviewjaquelinesantos.png" alt="Avaliação de cliente satisfeito com a Barbearia John em Camboriú: Jaqueline Santos" width={500} height={500} />
           </div>
         </div>
         <SliderHero />

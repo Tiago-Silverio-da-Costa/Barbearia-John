@@ -64,7 +64,7 @@ export default function Contact() {
             Onde estamos localizados
           </h1>
         </div>
-        <p className="text-lg mt-2 text-start md:text-center text-textBlack"> R. Lauro Francisco dos Santos, 944 • Monte Alegre, Santa catarina - SC • 88348-595</p>
+        <p className="text-lg mt-2 text-start md:text-center text-textBlack"> R. Lauro Francisco dos Santos, 944 • Monte Alegre, Camboriú - SC • 88348-595</p>
         <div className="flex flex-col md:flex-row items-end gap-4 justify-between w-full mt-8">
           <div className="w-full">
             <div className="w-full">
