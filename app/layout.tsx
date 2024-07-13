@@ -70,6 +70,9 @@ export const metadata: Metadata = {
 		locale: "pt-BR",
 		type: "website",
 	},
+	robots: {
+		index: true,
+	},
 	twitter: {
 		card: "summary_large_image",
 		title:
