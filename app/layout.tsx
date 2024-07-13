@@ -34,17 +34,17 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
 	title:
-		"Barbearia John Official em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado",
+		"Barbearia John em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado",
 	metadataBase: new URL("https://barbeariajohn.com.br"),
 	description:
-		"Cortes de cabelo masculinos e infantis com agendamento online em Camboriú! Agende seu horário e aproveite nosso desconto exclusivo. Barbearia John Official (Rua Lauro Francisco dos Santos, 944, Monte Alegre). Contato: 47 9 9771-3257. Acesse: barbeariajohn.com.br",
-	keywords:["barbearia em Camboriu", "corte de cabelo masculino Camboriu", "corte de cabelo masculino barato Camboriú", "barbearia infantil Centro Camboriú", "barbeiro experiente Monte Alegre Camboriú" ,"corte de cabelo infantil Camboriu", "agendamento online barbearia", "agendamento online corte de cabelo", "desconto corte de cabelo", "barbeiro profissional", "melhor barbearia Camboriu", "barbearia infantil Camboriu", "Monte alegre barbearia", "barba e cabelo Camboriu"],
+		"Cortes de cabelo masculinos e infantis com agendamento online em Camboriú! Agende seu horário e aproveite nosso desconto exclusivo. Barbearia John (Rua Lauro Francisco dos Santos, 944, Monte Alegre). Contato: 47 9 9771-3257. Acesse: barbeariajohn.com.br",
+	keywords: ["barbearia em Camboriu", "corte de cabelo masculino Camboriu", "corte de cabelo masculino barato Camboriú", "barbearia infantil Centro Camboriú", "barbeiro experiente Monte Alegre Camboriú", "corte de cabelo infantil Camboriu", "agendamento online barbearia", "agendamento online corte de cabelo", "desconto corte de cabelo", "barbeiro profissional", "melhor barbearia Camboriu", "barbearia infantil Camboriu", "Monte alegre barbearia", "barba e cabelo Camboriu"],
 	openGraph: {
 		title:
-			"Barbearia John Official em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado",
+			"Barbearia John em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado",
 		description:
-			"Cortes de cabelo masculinos e infantis com agendamento online em Camboriú! Agende seu horário e aproveite nosso desconto exclusivo. Barbearia John Official (Rua Lauro Francisco dos Santos, 944, Monte Alegre). Contato: 47 9 9771-3257. Acesse: barbeariajohn.com.br",
-		siteName: "Barbearia John Official em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado",
+			"Cortes de cabelo masculinos e infantis com agendamento online em Camboriú! Agende seu horário e aproveite nosso desconto exclusivo. Barbearia John (Rua Lauro Francisco dos Santos, 944, Monte Alegre). Contato: 47 9 9771-3257. Acesse: barbeariajohn.com.br",
+		siteName: "Barbearia John em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado",
 		images: [
 			{
 				url: "https://barbeariajohn.com.br/barbeariajohn-banner-logo.png",
@@ -73,9 +73,9 @@ export const metadata: Metadata = {
 	twitter: {
 		card: "summary_large_image",
 		title:
-			"Barbearia John Official em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado",
+			"Barbearia John em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado",
 		description:
-			"Cortes de cabelo masculinos e infantis com agendamento online em Camboriú! Agende seu horário e aproveite nosso desconto exclusivo. Barbearia John Official (Rua Lauro Francisco dos Santos, 944, Monte Alegre). Contato: 47 9 9771-3257. Acesse: barbeariajohn.com.br",
+			"Cortes de cabelo masculinos e infantis com agendamento online em Camboriú! Agende seu horário e aproveite nosso desconto exclusivo. Barbearia John (Rua Lauro Francisco dos Santos, 944, Monte Alegre). Contato: 47 9 9771-3257. Acesse: barbeariajohn.com.br",
 		images: ["https://barbeariajohn.com.br/barbeariajohn-twitter-banner.png"],
 	},
 };
@@ -103,16 +103,16 @@ export default function RootLayout({
 				}}
 			/>
 			<body className={proximaNova.className}>
-			<noscript 
-			dangerouslySetInnerHTML={{
-				__html: `
+				<noscript
+					dangerouslySetInnerHTML={{
+						__html: `
 					<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWMQFS6D"
 height="0" width="0" style="display:none;visibility:hidden"></iframe>
 				`
-			}}
-			/>
+					}}
+				/>
 				{children}
-				</body>
+			</body>
 		</html>
 	);
 }
