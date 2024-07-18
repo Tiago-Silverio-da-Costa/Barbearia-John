@@ -61,7 +61,7 @@ export default function Services() {
               Lista de serviços
             </p>
             <h1 className={`${didot.className} uppercase max-w-2xl text-goldColor leading-10 text-4xl font-bold mb-4`}>
-            Nossos serviços de excelência para você:
+              Nossos serviços de excelência para você:
             </h1>
           </div>
           <div className="font-semibold flex flex-col gap-4">
@@ -77,12 +77,12 @@ export default function Services() {
             </div>
 
             <div className="flex justify-between gap-2 items-end">
-              <p className="text-lg">Cabelo + Barba (combo)</p>
+              <p className="text-lg">Cabelo + Barba</p>
               <p className={` text-2xl text-goldColor`}>R$ 50,00</p>
             </div>
 
             <div className="flex justify-between gap-2 items-end">
-              <p className="text-lg">Designer de sobrancelha</p>
+              <p className="text-lg">Sobrancelha</p>
               <p className={` text-2xl text-goldColor`}>R$ 25,00</p>
             </div>
           </div>
