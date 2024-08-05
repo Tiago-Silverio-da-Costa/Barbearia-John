@@ -53,7 +53,7 @@ const proximaNova = localFont({
 
 export default function Services() {
   return (
-    <section id="services" className="flex flex-col items-center justify-center pt-16 pb-12 text-WhiteColor">
+    <section id="services" className="flex flex-col items-center justify-center py-32 text-WhiteColor">
       <div className="flex flex-col md:flex-row justify-between items-center gap-4 mx-auto max-w-5xl w-5/6">
         <div>
           <div className="flex flex-col text-start justify-start">

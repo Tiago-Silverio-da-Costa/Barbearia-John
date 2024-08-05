@@ -55,7 +55,7 @@ const proximaNova = localFont({
 export default function About() {
   return (
     <section id="about" className="text-WhiteColor">
-      <div className="flex flex-col-reverse items-start md:flex-row mx-auto max-w-5xl w-5/6 py-16 pt-40 gap-4">
+      <div className="flex flex-col-reverse items-start md:flex-row mx-auto max-w-5xl w-5/6 py-32 pt-40 gap-4">
         <SliderAbout />
         <div className="flex flex-col items-start justify-center">
           <div className="flex flex-col justify-start">

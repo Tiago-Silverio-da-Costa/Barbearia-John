@@ -55,8 +55,8 @@ const proximaNova = localFont({
 export default function Reviews() {
 
   return (
-    <section>
-      <div className="flex flex-col md:flex-row justify-center items-start md:items-end gap-2 md:gap-4 mx-auto max-w-5xl w-5/6">
+    <section className="">
+      <div className="flex flex-col md:flex-row justify-center items-start md:items-end gap-2 md:gap-4 mx-auto max-w-5xl w-5/6 py-32">
         <div className="flex flex-col justify-start">
           <p className={`${proximaNova.className} italic uppercase text-sm md:text-lg font-semibold`}>
             Avaliações

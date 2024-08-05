@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "@/styles/globals.css";
 import localFont from "next/font/local";
 import Script from "next/script";
+import StyledComponentsRegistry from "@/lib/styledRegistry";
 
 const proximaNova = localFont({
 	src: [
@@ -114,7 +115,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
 				`
 					}}
 				/>
-				{children}
+				<StyledComponentsRegistry>
+					{children}
+				</StyledComponentsRegistry>
 			</body>
 		</html>
 	);
