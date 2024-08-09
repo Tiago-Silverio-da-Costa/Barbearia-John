@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="bg-WhiteColor text-blackColor">
       <div className="py-8 mx-auto max-w-5xl w-5/6">
-        <div className="flex justify-between items-center">
+        <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center justify-center gap-2 text-2xl">
             <Link
               href="https://api.whatsapp.com/send?phone=5547999055144"
@@ -52,8 +52,8 @@ export default function Footer() {
           </div>
 
 
-          <div className="flex flex-col items-start sm:items-center gap-4">
-            <p className="text-xl uppercase font-bold">Menu</p>
+          <div className="flex flex-col items-start mt-4 md:mt-0 sm:items-center gap-4">
+            <p className="text-xl uppercase font-bold text-center w-full">Menu</p>
             <div className="flex gap-2 items-center text-[#b1b1b1] text-xs">
               <Link className={`hover:scale-110 rounded-[3px] m-[2px] text-sm hover:text-blackColor transition-all duration-500`} href="/">Ínicio</Link>
               <Link className={`hover:scale-110 rounded-[3px] m-[2px] text-sm hover:text-blackColor transition-all duration-500`} href="/#services">Serviços</Link>
@@ -62,7 +62,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <Image src="/logo-black.png" alt="Logo da Barbearia John em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado" width={70} height={100} />
+          <Image className="mt-4 md:mt-0" src="/logo-black.png" alt="Logo da Barbearia John em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado" width={70} height={100} />
 
         </div>
 

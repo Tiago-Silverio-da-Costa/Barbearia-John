@@ -10,22 +10,25 @@ export default function Header() {
   const [openPopup, setOpenPopup] = useState(false);
 
   return (
-    <header className="bg-blackColor">
-      <div className="flex items-center justify-between mx-auto max-w-5xl w-5/6 py-8">
-      <Image  src="/logo.png" alt="Logo da Barbearia John em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado" width={100} height={100} />
-        <nav className="items-center justify-center hidden md:flex">
-          <ul className="flex gap-4">
-            <li>
-              <Link className="text-goldColor font-bold hover:text-WhiteColor transition-all duration-300" href="/#home">Ínicio</Link>
+    <header className="w-full md:w-fit">
+      <div className="md:mt-6 md:ml-6 flex flex-row md:flex-col items-center justify-between w-full md:w-fit max-w-5xl md:max-w-52 py-8 px-8 md:pb-0 md:pt-4 md:bg-[#020000]">
+        <Image src="/logo.png" alt="Logo da Barbearia John em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado" width={80} height={80} />
+        <nav className="items-center justify-center w-full hidden md:flex">
+          <ul className="flex flex-col mt-4 w-full">
+            <li className="flex justify-center items-center w-full py-4 px-16 bg-transparent hover:bg-goldColor border-t border-t-gray-500/35 border-b border-b-gray-500/35 hover:border-transparent transition-all duration-300 cursor-pointer">
+              <Link className="text-white font-bold w-full" href="/#home">Ínicio</Link>
             </li>
-            <li>
-              <Link className="text-goldColor font-bold hover:text-WhiteColor transition-all duration-300" href="/#services">Serviços</Link>
+            <li className="flex justify-center items-center w-full py-4 px-16 bg-transparent hover:bg-goldColor border-t border-t-gray-500/35 border-b border-b-gray-500/35 hover:border-transparent transition-all duration-300 cursor-pointer">
+              <Link className="text-white font-bold w-full" href="/#services">Serviços</Link>
             </li>
-            <li>
-              <Link className="text-goldColor font-bold hover:text-WhiteColor transition-all duration-300" href="/#about">Sobre nós</Link>
+            <li className="flex justify-center items-center w-full py-4 px-16 bg-transparent hover:bg-goldColor border-t border-t-gray-500/35 border-b border-b-gray-500/35 hover:border-transparent transition-all duration-300 cursor-pointer">
+              <Link className="text-white font-bold w-full" href="/#about">Sobre</Link>
             </li>
-            <li>
-              <Link className="text-goldColor font-bold hover:text-WhiteColor transition-all duration-300" href="/#contact">Contato</Link>
+            <li className="flex justify-center items-center w-full py-4 px-16 bg-transparent hover:bg-goldColor border-t border-t-gray-500/35 border-b border-b-gray-500/35 hover:border-transparent transition-all duration-300 cursor-pointer">
+              <Link className="text-white font-bold w-full" href="/#contact">Contato</Link>
+            </li>
+            <li className="flex justify-center items-center w-full py-4 px-16 bg-transparent hover:bg-goldColor border-t border-t-gray-500/35 border-b border-b-gray-500/35 hover:border-transparent transition-all duration-300 cursor-pointer">
+              <Link className="text-white font-bold w-full" href="/blog">Blog</Link>
             </li>
           </ul>
         </nav>
@@ -41,7 +44,7 @@ export default function Header() {
         {
           openPopup && (
             <nav className="md:hidden fixed top-0 left-0 w-full h-full bg-blackColor z-50 flex flex-col items-center justify-center">
-              <Image  src="/logo.png" alt="Logo da Barbearia John em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado" width={100} height={100} />
+              <Image src="/logo.png" alt="Logo da Barbearia John em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado" width={100} height={100} />
               <button
                 aria-label="Fechar"
                 type="button"
@@ -62,6 +65,9 @@ export default function Header() {
                 </li>
                 <li onClick={() => setOpenPopup(false)}>
                   <Link className="text-goldColor font-bold hover:text-WhiteColor transition-all duration-300" href="#contact">Contato</Link>
+                </li>
+                <li onClick={() => setOpenPopup(false)}>
+                  <Link className="text-goldColor font-bold hover:text-WhiteColor transition-all duration-300" href="/blog">Blog</Link>
                 </li>
               </ul>
             </nav>

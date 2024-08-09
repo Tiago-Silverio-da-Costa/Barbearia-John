@@ -3,6 +3,17 @@ import "@/styles/globals.css";
 import localFont from "next/font/local";
 import Script from "next/script";
 import StyledComponentsRegistry from "@/lib/styledRegistry";
+import { Righteous, Poppins } from "next/font/google";
+
+const righteous = Righteous({
+	weight: "400",
+	subsets: ["latin"]
+});
+
+const poppins = Poppins({
+	weight: ["400", "500", "600", "700", "800", "900"],
+	subsets: ["latin"]
+});
 
 const proximaNova = localFont({
 	src: [
@@ -106,7 +117,7 @@ export default function RootLayout({
 					`
 				}}
 			/>
-			<body className={proximaNova.className}>
+			<body className={poppins.className}>
 				<noscript
 					dangerouslySetInnerHTML={{
 						__html: `
