@@ -69,7 +69,7 @@ export default function Hero() {
             target="_blank"
             aria-label="Agende agora pelo WhatsApp"
           >
-            Agende agora
+            Agende agoraa
             <FaWhatsapp />
           </Link>
         </div>
