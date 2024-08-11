@@ -6,49 +6,49 @@ import { PiMapPinFill } from "react-icons/pi";
 
 export default function Footer() {
   return (
-    <footer className="bg-WhiteColor text-blackColor">
+    <footer className="bg-[#141109] text-white">
       <div className="py-8 mx-auto max-w-5xl w-5/6">
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="flex items-center justify-center gap-2 text-2xl">
-            <Link
-              href="https://api.whatsapp.com/send?phone=5547999055144"
-              target="_blank"
-              rel="noreferrer"
-              className="text-goldColor hover:scale-110 hover:text-blackColor transition-all duration-300"
-              aria-label="Facebook da Barbearia John"
-            >
-              <FaWhatsapp />
-            </Link>
-            <p className="text-goldColor">•</p>
-            <Link
-              href="https://www.instagram.com/barbeariajohnn/"
-              target="_blank"
-              rel="noreferrer"
-              className="text-goldColor hover:scale-110 hover:text-blackColor transition-all duration-300"
-              aria-label="Instagram da Barbearia John"
-            >
-              <FaInstagram />
-            </Link>
-            <p className="text-goldColor">•</p>
-            <Link
-              href="https://www.facebook.com/barbeariajohnn/"
-              target="_blank"
-              rel="noreferrer"
-              className="text-goldColor hover:scale-110 hover:text-blackColor transition-all duration-300"
-              aria-label="Facebook da Barbearia John"
-            >
-              <FaFacebookF />
-            </Link>
-            <p className="text-goldColor">•</p>
-            <Link
-              href="https://maps.app.goo.gl/4toBGJMxHn73mh5w8"
-              target="_blank"
-              rel="noreferrer"
-              className="text-goldColor hover:scale-110 hover:text-blackColor transition-all duration-300"
-              aria-label="Facebook da Barbearia John"
-            >
-              <PiMapPinFill />
-            </Link>
+          <div className="flex items-center flex-col gap-4">
+            <Image src="/logo.png" alt="Logo da Barbearia John em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado" width={70} height={100} />
+            <div className="flex items-center justify-center gap-2 text-2xl">
+              <Link
+                href="https://api.whatsapp.com/send?phone=5547999055144"
+                target="_blank"
+                rel="noreferrer"
+                className="text-xl py-1 px-6"
+                aria-label="Facebook da Barbearia John"
+              >
+                <FaWhatsapp className="text-goldColor hover:scale-110 hover:text-goldColor/70 transition-all duration-300" />
+              </Link>
+              <Link
+                href="https://www.instagram.com/barbeariajohnn/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-xl py-1 px-6 border-l border-l-goldColor"
+                aria-label="Instagram da Barbearia John"
+              >
+                <FaInstagram className="text-goldColor hover:scale-110 hover:text-goldColor/70 transition-all duration-300" />
+              </Link>
+              <Link
+                href="https://www.facebook.com/barbeariajohnn/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-xl py-1 px-6 border-l border-l-goldColor"
+                aria-label="Facebook da Barbearia John"
+              >
+                <FaFacebookF className="text-goldColor hover:scale-110 hover:text-goldColor/70 transition-all duration-300" />
+              </Link>
+              <Link
+                href="https://maps.app.goo.gl/4toBGJMxHn73mh5w8"
+                target="_blank"
+                rel="noreferrer"
+                className="text-xl py-1 px-6 border-l border-l-goldColor"
+                aria-label="Facebook da Barbearia John"
+              >
+                <PiMapPinFill className="text-goldColor hover:scale-110 hover:text-goldColor/70 transition-all duration-300" />
+              </Link>
+            </div>
           </div>
 
 
@@ -62,7 +62,6 @@ export default function Footer() {
             </div>
           </div>
 
-          <Image className="mt-4 md:mt-0" src="/logo-black.png" alt="Logo da Barbearia John em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado" width={70} height={100} />
 
         </div>
 

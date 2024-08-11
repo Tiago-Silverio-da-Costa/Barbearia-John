@@ -6,24 +6,19 @@
 
 .swiper-slide {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 22px;
-  font-weight: bold;
-  color: #fff;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  text-align: start;
 }
 
 .swiper {
-  margin: 0 ;
-  width: 250px;
-  height: 250px;
-  
-  @media (min-width: 768px) {
-    margin: 0px auto;
-    width: 500px;
-    height: 500px;
+  width: 200px;
+  margin: 0;
 
-  }
+  @media (min-width: 768px) {
+    width: 450px;
+    }
 }
 
 

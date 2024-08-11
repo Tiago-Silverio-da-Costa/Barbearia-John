@@ -49,7 +49,7 @@ export default function SliderReview() {
       {reviewList.map((hero) => (
         <Fragment key={hero.id}>
           <SwiperSlide>
-            <Image src={hero.image} alt="Clientes satisfeitos na Barbearia John em Camboriú: Experiência completa com corte de cabelo e atendimento de qualidade!" width={400} height={450} />
+            <Image className="rounded-md" src={hero.image} alt="Clientes satisfeitos na Barbearia John em Camboriú: Experiência completa com corte de cabelo e atendimento de qualidade!" width={400} height={450} />
           </SwiperSlide>
         </Fragment>
       ))}

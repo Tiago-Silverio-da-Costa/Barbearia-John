@@ -11,25 +11,25 @@ export default function Header() {
 
   return (
     <header className="w-full md:w-fit">
-      <div className="md:mt-6 md:ml-6 flex flex-row md:flex-col items-center justify-between w-full md:w-fit max-w-5xl md:max-w-52 py-8 px-8 md:pb-0 md:pt-4 md:bg-[#020000]">
+      <div className="rounded-b-md flex flex-row md:flex-col items-center justify-between w-full md:w-fit max-w-5xl md:max-w-52 py-8 px-8 md:px-0 md:pb-0 md:pt-4 bg-black/50 md:bg-[#020000]">
         <Image src="/logo.png" alt="Logo da Barbearia John em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado" width={80} height={80} />
         <nav className="items-center justify-center w-full hidden md:flex">
           <ul className="flex flex-col mt-4 w-full">
-            <li className="flex justify-center items-center w-full py-4 px-16 bg-transparent hover:bg-goldColor border-t border-t-gray-500/35 border-b border-b-gray-500/35 hover:border-transparent transition-all duration-300 cursor-pointer">
-              <Link className="text-white font-bold w-full" href="/#home">Ínicio</Link>
+            <li className="flex justify-center items-center py-4 px-16 bg-transparent hover:bg-goldColor border-t border-t-gray-500/35 border-b border-b-gray-500/35 hover:border-transparent transition-all duration-300 cursor-pointer">
+              <Link className="flex justify-center items-center text-white text-center font-bold w-full" href="/#home">Ínicio</Link>
             </li>
             <li className="flex justify-center items-center w-full py-4 px-16 bg-transparent hover:bg-goldColor border-t border-t-gray-500/35 border-b border-b-gray-500/35 hover:border-transparent transition-all duration-300 cursor-pointer">
-              <Link className="text-white font-bold w-full" href="/#services">Serviços</Link>
+              <Link className="flex justify-center items-center text-white font-bold w-full" href="/#services">Serviços</Link>
             </li>
             <li className="flex justify-center items-center w-full py-4 px-16 bg-transparent hover:bg-goldColor border-t border-t-gray-500/35 border-b border-b-gray-500/35 hover:border-transparent transition-all duration-300 cursor-pointer">
-              <Link className="text-white font-bold w-full" href="/#about">Sobre</Link>
+              <Link className="flex justify-center items-center text-white font-bold w-full" href="/#about">Sobre</Link>
             </li>
             <li className="flex justify-center items-center w-full py-4 px-16 bg-transparent hover:bg-goldColor border-t border-t-gray-500/35 border-b border-b-gray-500/35 hover:border-transparent transition-all duration-300 cursor-pointer">
-              <Link className="text-white font-bold w-full" href="/#contact">Contato</Link>
+              <Link className="flex justify-center items-center text-white font-bold w-full" href="/#contact">Contato</Link>
             </li>
-            <li className="flex justify-center items-center w-full py-4 px-16 bg-transparent hover:bg-goldColor border-t border-t-gray-500/35 border-b border-b-gray-500/35 hover:border-transparent transition-all duration-300 cursor-pointer">
-              <Link className="text-white font-bold w-full" href="/blog">Blog</Link>
-            </li>
+            {/* <li className="rounded-b-md flex justify-center items-center w-full py-4 px-16 bg-transparent hover:bg-goldColor border-t border-t-gray-500/35 border-b border-b-gray-500/35 hover:border-transparent transition-all duration-300 cursor-pointer">
+              <Link className="flex justify-center items-center text-white font-bold w-full" href="/blog">Blog</Link>
+            </li> */}
           </ul>
         </nav>
         <button
@@ -66,9 +66,9 @@ export default function Header() {
                 <li onClick={() => setOpenPopup(false)}>
                   <Link className="text-goldColor font-bold hover:text-WhiteColor transition-all duration-300" href="#contact">Contato</Link>
                 </li>
-                <li onClick={() => setOpenPopup(false)}>
+                {/* <li onClick={() => setOpenPopup(false)}>
                   <Link className="text-goldColor font-bold hover:text-WhiteColor transition-all duration-300" href="/blog">Blog</Link>
-                </li>
+                </li> */}
               </ul>
             </nav>
           )

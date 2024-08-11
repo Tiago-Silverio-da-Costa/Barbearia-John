@@ -1,5 +1,12 @@
 import ServiceHours from "./serviceHours";
 import localFont from "next/font/local";
+import { Righteous } from "next/font/google";
+
+const righteous = Righteous({
+    weight: "400",
+    subsets: ["latin"]
+});
+
 
 const didot = localFont({
   src: [
@@ -54,17 +61,17 @@ const proximaNova = localFont({
 export default function Contact() {
 
   return (
-    <section id="contact" className="flex flex-col items-center justify-center">
+    <section id="contact" className="flex flex-col items-center justify-center bg-white">
       <div className="flex flex-col items-start justify-between mx-auto max-w-5xl w-5/6 py-32">
         <div className="flex flex-col justify-start">
-          <p className={`${proximaNova.className} italic uppercase text-sm md:text-lg font-semibold`}>
+          <p className={`text-black italic uppercase text-sm md:text-lg font-semibold`}>
             Contato / Localização
           </p>
-          <h1 className={`${didot.className} uppercase max-w-2xl text-goldColor leading-10 text-4xl font-bold`}>
+          <h1 className={`${righteous.className} uppercase max-w-2xl text-goldColor leading-10 text-4xl font-bold`}>
             Onde estamos localizados
           </h1>
         </div>
-        <p className="text-lg mt-2 text-start md:text-center text-textBlack"> R. Lauro Francisco dos Santos, 944 • Monte Alegre, Camboriú - SC • 88348-595</p>
+        <p className="text-lg mt-2 text-start md:text-center text-black"> R. Lauro Francisco dos Santos, 944 • Monte Alegre, Camboriú - SC • 88348-595</p>
         <div className="flex flex-col md:flex-row items-end gap-4 justify-between w-full mt-8">
           <div className="w-full">
             <div className="w-full">
