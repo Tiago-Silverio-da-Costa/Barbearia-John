@@ -13,12 +13,14 @@
 }
 
 .swiper {
-  width: 200px;
+  width: 190px;
   margin: 0;
+}
 
-  @media (min-width: 768px) {
-    width: 450px;
-    }
+@media (min-width: 768px) {
+  .swiper {
+    width: 490px;
+  }
 }
 
 
