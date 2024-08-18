@@ -7,57 +7,6 @@ const righteous = Righteous({
     subsets: ["latin"]
 });
 
-
-const didot = localFont({
-  src: [
-    {
-      path: "../public/fonts/Didot-bold.otf",
-      weight: "700",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/Didot-italic.otf",
-      weight: "500",
-      style: "italic",
-    },
-    {
-      path: "../public/fonts/Didot-title.otf",
-      weight: "800",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/Didot.otf",
-      weight: "400",
-      style: "normal",
-    },
-  ],
-})
-const proximaNova = localFont({
-  src: [
-    {
-      path: "../public/fonts/ProximaNovaBold.otf",
-      weight: "700",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/ProximaNovaBoldItalic.otf",
-      weight: "700",
-      style: "italic",
-    },
-    {
-      path: "../public/fonts/ProximaNovaRegular.otf",
-      weight: "500",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/ProximaNovaRegularItalic.otf",
-      weight: "500",
-      style: "italic",
-    },
-  ],
-})
-
-
 export default function Contact() {
 
   return (
