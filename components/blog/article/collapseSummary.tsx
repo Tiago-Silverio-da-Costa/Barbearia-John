@@ -32,13 +32,13 @@ export default function CollapseSummary({ data, id }: {
                 <FiPlus className="text-2xl text-black group-hover:opacity-80" />
                 <span className="text-black uppercase font-bold group-hover:opacity-80">Nessa página</span>
             </button>
-            <div className={` ${openPopup && "scrollbar h-40"}`}>
+            <div className={` ${openPopup && "overflow-y-scroll scrollbar h-40"}`}>
                 {
                     openPopup && (
                         <ul className="p-4 flex flex-col gap-4">
                             {data.map((item, index) => (
                                 <li key={index}>
-                                    <Link href={`/article/${id}#${item.formattedTitle}`} className={`${righteous.className} w-fit max-w-48 mt-2 text-black hover:opacity-80`}>
+                                    <Link href={`/article/${id}#${item.formattedTitle}`} className={`${righteous.className} w-fit max-w-48 mt-2 text-black hover:text-goldColor`}>
                                         {item.title}
                                     </Link>
                                 </li>
