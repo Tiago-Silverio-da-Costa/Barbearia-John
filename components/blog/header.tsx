@@ -15,8 +15,7 @@ export default function Header({ id }: { id?: string }) {
     <section className="bg-[hsla(0,0%,100%,.5)] border border-[hsla(0,0%,100%,.5)] w-full">
       <div className="flex justify-between items-center mx-auto w-5/6 max-w-5xl py-4">
         <Link href="/" aria-label="Logo do Tiago Costa" className="flex items-center gap-2">
-          <Image className="rounded-full" src="/home/header/logo.svg" alt="Logo do Tiago Silverio Programador" width={50} height={80} />
-          <h1 className="hidden md:block text-lg font-bold text-textTitle uppercase">Programador</h1>
+          <Image src="/logo.png" alt="Logo do Tiago Silverio Programador" width={80} height={80} />
         </Link>
         <ul>
           <li className="flex flex-col items-center">
@@ -30,7 +29,7 @@ export default function Header({ id }: { id?: string }) {
           target="_blank"
           rel="noreferrer"
           aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
-          href="https://api.whatsapp.com/send?phone=5511982391118"
+          href="https://api.whatsapp.com/send?phone=554797713257"
         >
 
           Fazer orçamento

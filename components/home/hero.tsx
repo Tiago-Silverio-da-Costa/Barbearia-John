@@ -25,7 +25,7 @@ export default function Hero() {
             </div>
             <div className="flex items-center justify-center">
               <Link
-                href="https://api.whatsapp.com/send?phone=5547999055144"
+                href="https://api.whatsapp.com/send?phone=554797713257"
                 target="_blank"
                 rel="noreferrer"
                 className="text-gray-300 py-4 px-6 hover:text-goldColor transition-all duration-300 border-l border-l-gray-700"
@@ -74,7 +74,7 @@ export default function Hero() {
               <div className="flex flex-col-reverse justify-between gap-4 items-start mt-4">
                 <Link
                   className={` uppercase w-fit flex gap-3 items-center justify-center text-white bg-goldColor transition-all duration-200 hover:opacity-75 px-4 py-2 text-sm md:text-lg font-medium`}
-                  href={`https://api.whatsapp.com/send?phone=4797713257&text=Oi,%20Tudo%20bem!`}
+                  href={`https://api.whatsapp.com/send?phone=554797713257&text=Oi,%20Tudo%20bem!`}
                   target="_blank"
                   aria-label="Agende agora pelo WhatsApp"
                 >

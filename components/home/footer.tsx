@@ -13,7 +13,7 @@ export default function Footer() {
             <Image src="/logo.png" alt="Logo da Barbearia John em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado" width={70} height={100} />
             <div className="flex items-center justify-center gap-2 text-2xl">
               <Link
-                href="https://api.whatsapp.com/send?phone=5547999055144"
+                href="https://api.whatsapp.com/send?phone=554797713257"
                 target="_blank"
                 rel="noreferrer"
                 className="text-xl py-1 px-6"

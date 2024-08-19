@@ -17,7 +17,7 @@ export default function Footer() {
         </p>
         <div className="flex items-center justify-center gap-2 text-2xl">
           <Link
-            href="https://api.whatsapp.com/send?phone=11982391118"
+            href="https://api.whatsapp.com/send?phone=554797713257"
             target="_blank"
             rel="noreferrer"
             className="text-defaultText/50 hover:text-textTitle transition-all duration-300"

@@ -33,7 +33,7 @@ export default function ServiceHours() {
         <p className="font-semibold text-black text-sm mt-2 max-w-96 text-start tracking-tight leading-4">
           Para agendar seu horário com facilidade, clique no botão abaixo:
         </p>
-        <Link className={`w-full mt-4 flex gap-3 items-center justify-center text-WhiteColor bg-black transition-all duration-200 hover:opacity-75 px-6 py-2 font-bold text-2xl`} href={`https://api.whatsapp.com/send?phone=4797713257&text=Oi,%20Tudo%20bem!`} target="_blank" aria-label="Agende agora pelo WhatsApp">
+        <Link className={`w-full mt-4 flex gap-3 items-center justify-center text-WhiteColor bg-black transition-all duration-200 hover:opacity-75 px-6 py-2 font-bold text-2xl`} href={`https://api.whatsapp.com/send?phone=554797713257&text=Oi,%20Tudo%20bem!`} target="_blank" aria-label="Agende agora pelo WhatsApp">
           <FaWhatsapp />
           Agende agora
         </Link>

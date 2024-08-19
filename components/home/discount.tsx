@@ -37,7 +37,7 @@ export default function Discout() {
         {/* TODO:colocar imagem selo 25% de desconto */}
         <Link
         className={`w-full mt-4 flex gap-3 items-center justify-center text-blackColor bg-WhiteColor transition-all duration-200 hover:opacity-75 px-6 py-2 font-bold text-xl md:text-2xl`} 
-        href={`https://api.whatsapp.com/send?phone=4797713257&text=Oi,%20Tudo%20bem!`} 
+        href={`https://api.whatsapp.com/send?phone=554797713257&text=Oi,%20Tudo%20bem!`} 
         target="_blank"
          aria-label="Agende agora pelo WhatsApp"
         >

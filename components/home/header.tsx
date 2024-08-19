@@ -24,7 +24,7 @@ export default function Header() {
             <li className="flex justify-center items-center w-full py-4 px-16 bg-transparent hover:bg-goldColor border-t border-t-gray-500/35 border-b border-b-gray-500/35 hover:border-transparent transition-all duration-300 cursor-pointer">
               <Link className="flex justify-center items-center text-white font-bold w-full" href="/#about">Sobre</Link>
             </li>
-            <li className="flex justify-center items-center w-full py-4 px-16 bg-transparent hover:bg-goldColor border-t border-t-gray-500/35 border-b border-b-gray-500/35 hover:border-transparent transition-all duration-300 cursor-pointer">
+            <li className="flex justify-center items-center w-full py-4 px-16 bg-transparent hover:bg-goldColor hover:rounded-b-md border-t border-t-gray-500/35 border-b border-b-gray-500/35 hover:border-transparent transition-all duration-300 cursor-pointer">
               <Link className="flex justify-center items-center text-white font-bold w-full" href="/#contact">Contato</Link>
             </li>
             {/* <li className="rounded-b-md flex justify-center items-center w-full py-4 px-16 bg-transparent hover:bg-goldColor border-t border-t-gray-500/35 border-b border-b-gray-500/35 hover:border-transparent transition-all duration-300 cursor-pointer">
