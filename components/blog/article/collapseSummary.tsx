@@ -3,6 +3,12 @@
 import Link from "next/link";
 import { useState } from "react";
 import { FiPlus } from "react-icons/fi";
+import { Righteous } from "next/font/google";
+
+const righteous = Righteous({
+  weight: "400",
+  subsets: ["latin"]
+});
 
 
 export default function CollapseSummary({ data, id }: {
@@ -23,8 +29,8 @@ export default function CollapseSummary({ data, id }: {
                 className={`${openPopup && "border-b border-b-gray-700 w-full"} flex  justify-center pb-2 items-center gap-2 `}
                 onClick={() => setOpenPopup(!openPopup)}
             >
-                <FiPlus className="text-2xl text-gray-700 group-hover:text-black" />
-                <span className="text-textTitle uppercase font-bold group-hover:text-black">Nessa página</span>
+                <FiPlus className="text-2xl text-black group-hover:opacity-80" />
+                <span className="text-black uppercase font-bold group-hover:opacity-80">Nessa página</span>
             </button>
             <div className={` ${openPopup && "scrollbar h-40"}`}>
                 {
@@ -32,7 +38,7 @@ export default function CollapseSummary({ data, id }: {
                         <ul className="p-4 flex flex-col gap-4">
                             {data.map((item, index) => (
                                 <li key={index}>
-                                    <Link href={`/article/${id}#${item.formattedTitle}`} className="w-fit max-w-48 mt-2 hover:text-textTitle">
+                                    <Link href={`/article/${id}#${item.formattedTitle}`} className={`${righteous.className} w-fit max-w-48 mt-2 text-black hover:opacity-80`}>
                                         {item.title}
                                     </Link>
                                 </li>

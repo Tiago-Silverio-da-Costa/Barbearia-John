@@ -1,10 +1,10 @@
 import { getCustomFilterParams, getPaginationParams } from "@/components/blog/admin/utils";
 import ArticleItem from "@/components/blog/articleItem";
-import Footer from "@/components/blog/footer";
 import Header from "@/components/blog/header";
 import Pagination from "@/components/blog/pagination";
 import { getArticles } from "../../app/api/utils";
 import FilterNSearchHead from "@/components/blog/filterNSearchHead";
+import Footer from "@/components/home/footer";
 
 export default async function Blog({
   searchParams,
@@ -25,7 +25,7 @@ export default async function Blog({
       <div className="">
 
         <Header />
-        <div className="flex flex-col items-center justify-center py-8">
+        <div className="bg-white text-black flex flex-col items-center justify-center py-8">
           <FilterNSearchHead paginationParams={paginationParams} />
 
           {articleData.length > 0 ? (

@@ -3,6 +3,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Fragment, useState, useEffect } from "react";
+import { Righteous } from "next/font/google";
+
+const righteous = Righteous({
+  weight: "400",
+  subsets: ["latin"]
+});
 
 export default function Paragraph({ content }: { content: string }) {
   const [processedContent, setProcessedContent] = useState<(JSX.Element | null)[]>([]);
@@ -146,7 +152,7 @@ export default function Paragraph({ content }: { content: string }) {
                 if (partIndex % 2 !== 0) {
                   const [linkText, url] = part.split(",").map(p => p.trim());
                   return (
-                    <Link key={partIndex} href={url} target="_blank" className="text-highlightBlue hover:text-textTitle cursor-pointer">
+                    <Link key={partIndex} href={url} target="_blank" className="text-goldColor hover:opacity-80 cursor-pointer">
                       <strong>{linkText}</strong>
                     </Link>
                   );
@@ -225,7 +231,7 @@ export default function Paragraph({ content }: { content: string }) {
       <ul className="flex flex-col gap-4 mb-4 list-disc list-insise">
         {titles.map((item, index) => (
           <li key={index}>
-            <Link className="text-xl text-highlightBlue hover:text-textTitle tracking-wide my-8 list-disc" href={`/article/1/#${item.formattedTitle}`}>{item.title}</Link>
+            <Link className={`${righteous.className} text-xl text-goldColor hover:opacity-80 tracking-wide my-8 list-disc`} href={`/article/1/#${item.formattedTitle}`}>{item.title}</Link>
           </li>
         ))}
       </ul>

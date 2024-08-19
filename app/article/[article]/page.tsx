@@ -1,6 +1,6 @@
 import Article from "@/components/blog/article";
-import Footer from "@/components/blog/footer";
 import Header from "@/components/blog/header";
+import Footer from "@/components/home/footer";
 
 export default async function Page({
   params: { article },

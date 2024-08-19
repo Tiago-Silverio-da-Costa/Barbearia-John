@@ -17,6 +17,6 @@ export default function ReadingText({ content }: { content: string }) {
 }, []) 
 
   return (
-    <p className={` uppercase font-light text-xs text-secondary tracking-tighter`}>{readingTime} minutos de leitura</p>
+    <p className={` uppercase text-black font-light text-xs text-secondary tracking-tighter`}>{readingTime} minutos de leitura</p>
   )
 }
