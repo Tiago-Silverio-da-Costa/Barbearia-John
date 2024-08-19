@@ -15,30 +15,6 @@ const poppins = Poppins({
 	subsets: ["latin"]
 });
 
-const proximaNova = localFont({
-	src: [
-		{
-			path: "../public/fonts/ProximaNovaBold.otf",
-			weight: "700",
-			style: "normal",
-		},
-		{
-			path: "../public/fonts/ProximaNovaBoldItalic.otf",
-			weight: "700",
-			style: "italic",
-		},
-		{
-			path: "../public/fonts/ProximaNovaRegular.otf",
-			weight: "500",
-			style: "normal",
-		},
-		{
-			path: "../public/fonts/ProximaNovaRegularItalic.otf",
-			weight: "500",
-			style: "italic",
-		},
-	],
-})
 
 export const viewport: Viewport = {
 	themeColor: "#201f20",

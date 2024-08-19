@@ -41,20 +41,20 @@ export const generateMetadata = async ({ params }: { params: { article: string }
 
 	return {
 		title:
-			data?.title || "Tiago Silverio Programador – Blog",
-		metadataBase: new URL(`https://www.tiagosc.com.br/article/${id}`),
+			data?.title || "Barbearia John Camboriú – Blog",
+		metadataBase: new URL(`https://www.barbeariajohn.com.br/article/${id}`),
 		description:
-			data?.subtitle || "Blog pessoal com artigos sobre tecnologia, programação e desenvolvimento web.",
+			data?.subtitle || "Blog da Barbearia John",
 		keywords: ["Tecnologia", "Programação", "Desenvolvimento Web", "Blog de Tecnologia", "Artigos de Programação", "Next.js", "JavaScript", "React", "Node.js"],
 		openGraph: {
 			title:
-				data?.title || "Tiago Silverio Programador – Blog",
+				data?.title || "Barbearia John Camboriú – Blog",
 			description:
-				data?.subtitle || "Blog pessoal com artigos sobre tecnologia, programação e desenvolvimento web.",
-			siteName: "Tiago Silverio Programador – Blog ",
+				data?.subtitle || "Blog da Barbearia John",
+			siteName: "Barbearia John Camboriú – Blog ",
 			images: [
 				{
-					url: data?.image || "https://www.tiagosc.com.br/tiagosc-port.png",
+					url: data?.image || "https://www.barbeariajohn.com.br/barbeariajohn-banner-logo.png",
 					width: 1280,
 					height: 720,
 				},
@@ -68,10 +68,10 @@ export const generateMetadata = async ({ params }: { params: { article: string }
 		twitter: {
 			card: "summary_large_image",
 			title:
-				data?.title || "Tiago Silverio Programador – Blog",
+				data?.title || "Barbearia John Camboriú – Blog",
 			description:
-				data?.subtitle || "Blog pessoal com artigos sobre tecnologia, programação e desenvolvimento web.",
-			images: [data?.image || "https://www.tiagosc.com.br/tiagosc-port.png"],
+				data?.subtitle || "Blog da Barbearia John",
+			images: [data?.image || "https://barbeariajohn.com.br/barbeariajohn-twitter-banner.png"],
 		},
 	};
 };

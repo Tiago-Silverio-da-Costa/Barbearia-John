@@ -16,7 +16,7 @@ export default function Header({ id }: { id?: string }) {
   return (
     <section className="bg-black w-full">
       <div className="flex justify-between items-center mx-auto w-5/6 max-w-5xl py-4">
-        <Link href="/" aria-label="Logo do Tiago Costa" className="flex items-center gap-2">
+        <Link href="/" aria-label="Logo do Tiago Costa" className="hidden md:flex items-center gap-2">
           <Image src="/logo.png" alt="Logo do Tiago Silverio Programador" width={80} height={80} />
         </Link>
         <div className="flex items-center justify-center">

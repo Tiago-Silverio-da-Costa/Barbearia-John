@@ -11,20 +11,20 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
 	title:
-		"Tiago Silverio Programador – Blog",
-	metadataBase: new URL("https://www.tiagosc.com.br/blog"),
+		"Barbearia John Camboriú – Blog",
+	metadataBase: new URL("https://www.barbeariajohn.com.br/blog"),
 	description:
-		"Blog pessoal com artigos sobre tecnologia, programação e desenvolvimento web.",
+		"Blog da Barbearia John",
 	keywords: ["Tecnologia", "Programação", "Desenvolvimento Web", "Blog de Tecnologia", "Artigos de Programação", "Next.js", "JavaScript", "React", "Node.js"],
 	openGraph: {
 		title:
-			"Tiago Silverio Programador – Blog",
+			"Barbearia John Camboriú – Blog",
 		description:
-			"Blog pessoal com artigos sobre tecnologia, programação e desenvolvimento web.",
-		siteName: "Tiago Silverio Programador – Blog ",
+			"Blog da Barbearia John",
+		siteName: "Barbearia John Camboriú – Blog ",
 		images: [
 			{
-				url: "https://www.tiagosc.com.br/tiagosc-port.png",
+				url: "https://www.barbeariajohn.com.br/barbeariajohn-banner-logo.png",
 				width: 1280,
 				height: 720,
 			},
@@ -38,10 +38,10 @@ export const metadata: Metadata = {
 	twitter: {
 		card: "summary_large_image",
 		title:
-			"Tiago Silverio Programador – Blog",
+			"Barbearia John Camboriú – Blog",
 		description:
-			"Blog pessoal com artigos sobre tecnologia, programação e desenvolvimento web.",
-		images: ["https://www.tiagosc.com.br/tiagosc-port.png"],
+			"Blog da Barbearia John",
+		images: ["https://www.barbeariajohn.com.br/barbeariajohn-banner-logo.png"],
 	},
 };
 
