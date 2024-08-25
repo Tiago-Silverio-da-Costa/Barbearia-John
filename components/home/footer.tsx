@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center flex-col gap-4">
             <Image src="/logo.png" alt="Logo da Barbearia John em Camboriú: Corte de Cabelo Masculino e Infantil com Agendamento Online Descontado" width={70} height={100} />
-            <div className="flex items-center justify-center gap-2 text-2xl">
+            <div className="flex items-center justify-center text-2xl">
               <Link
                 href="https://api.whatsapp.com/send?phone=554797713257"
                 target="_blank"
