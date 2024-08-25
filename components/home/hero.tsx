@@ -1,6 +1,6 @@
 import { Section } from "@/styles/hero";
 import Link from "next/link";
-import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa6";
 import Header from "./header";
 import { PiMapPinFill } from "react-icons/pi";
 import { IoTime } from "react-icons/io5";
@@ -41,6 +41,15 @@ export default function Hero() {
                 aria-label="Instagram da Barbearia John"
               >
                 <FaInstagram className="text-xl" />
+              </Link>
+              <Link
+                href="https://www.tiktok.com/@barbeariajohn1"
+                target="_blank"
+                rel="noreferrer"
+                className="text-gray-300 py-4 px-6 hover:text-goldColor transition-all duration-300 border-l border-l-gray-700"
+                aria-label="Instagram da Barbearia John"
+              >
+                <FaTiktok className="text-xl" />
               </Link>
               <Link
                 href="https://www.facebook.com/barbeariajohnn/"

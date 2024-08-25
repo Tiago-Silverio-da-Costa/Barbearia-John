@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa6";
 import Image from "next/image";
 import { PiMapPinFill } from "react-icons/pi";
@@ -29,6 +29,15 @@ export default function Footer() {
                 aria-label="Instagram da Barbearia John"
               >
                 <FaInstagram className="text-goldColor hover:scale-110 hover:text-goldColor/70 transition-all duration-300" />
+              </Link>
+              <Link
+                href="https://www.tiktok.com/@barbeariajohn1"
+                target="_blank"
+                rel="noreferrer"
+                className="text-xl py-1 px-6 border-l border-l-goldColor"
+                aria-label="Instagram da Barbearia John"
+              >
+                <FaTiktok className="text-goldColor hover:scale-110 hover:text-goldColor/70 transition-all duration-300" />
               </Link>
               <Link
                 href="https://www.facebook.com/barbeariajohnn/"
