@@ -1,10 +1,11 @@
 import { Section } from "@/styles/hero";
 import Link from "next/link";
-import { FaFacebookF, FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa6";
+import { FaFacebookF, FaTiktok, FaWhatsapp, FaYoutube } from "react-icons/fa6";
 import Header from "./header";
 import { PiMapPinFill } from "react-icons/pi";
-import { IoTime } from "react-icons/io5";
+import { IoLogoWhatsapp, IoTime } from "react-icons/io5";
 import { Righteous } from "next/font/google";
+import { AiFillInstagram } from "react-icons/ai";
 
 const righteous = Righteous({
   weight: "400",
@@ -31,7 +32,7 @@ export default function Hero() {
                 className="text-gray-300 py-4 px-6 hover:text-goldColor transition-all duration-300 border-l border-l-gray-700"
                 aria-label="Facebook da Barbearia John"
               >
-                <FaWhatsapp className="text-xl" />
+                <IoLogoWhatsapp className="text-xl" />
               </Link>
               <Link
                 href="https://www.instagram.com/barbeariajohnn/"
@@ -40,7 +41,7 @@ export default function Hero() {
                 className="text-gray-300 py-4 px-6 hover:text-goldColor transition-all duration-300 border-l border-l-gray-700"
                 aria-label="Instagram da Barbearia John"
               >
-                <FaInstagram className="text-xl" />
+                <AiFillInstagram className="text-xl" />
               </Link>
               <Link
                 href="https://www.tiktok.com/@barbeariajohn1"
@@ -50,6 +51,15 @@ export default function Hero() {
                 aria-label="Instagram da Barbearia John"
               >
                 <FaTiktok className="text-xl" />
+              </Link>
+              <Link
+                href="https://www.youtube.com/@BarbeariaJohn"
+                target="_blank"
+                rel="noreferrer"
+                className="text-gray-300 py-4 px-6 hover:text-goldColor transition-all duration-300 border-l border-l-gray-700"
+                aria-label="Instagram da Barbearia John"
+              >
+                <FaYoutube className="text-xl" />
               </Link>
               <Link
                 href="https://www.facebook.com/barbeariajohnn/"

@@ -1,8 +1,10 @@
 import Link from "next/link";
-import { FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa";
+import { FaTiktok, FaYoutube } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa6";
 import Image from "next/image";
 import { PiMapPinFill } from "react-icons/pi";
+import { AiFillInstagram } from "react-icons/ai";
+import { IoLogoWhatsapp } from "react-icons/io5";
 
 export default function Footer() {
   return (
@@ -16,34 +18,43 @@ export default function Footer() {
                 href="https://api.whatsapp.com/send?phone=554797713257"
                 target="_blank"
                 rel="noreferrer"
-                className="text-xl py-1 px-6"
+                className="text-xl py-1 px-3 md:px-6"
                 aria-label="Facebook da Barbearia John"
               >
-                <FaWhatsapp className="text-goldColor hover:scale-110 hover:text-goldColor/70 transition-all duration-300" />
+                <IoLogoWhatsapp className="text-goldColor hover:scale-110 hover:text-goldColor/70 transition-all duration-300" />
               </Link>
               <Link
                 href="https://www.instagram.com/barbeariajohnn/"
                 target="_blank"
                 rel="noreferrer"
-                className="text-xl py-1 px-6 border-l border-l-goldColor"
+                className="text-xl py-1 px-3 md:px-6 border-l border-l-goldColor"
                 aria-label="Instagram da Barbearia John"
               >
-                <FaInstagram className="text-goldColor hover:scale-110 hover:text-goldColor/70 transition-all duration-300" />
+                <AiFillInstagram className="text-goldColor hover:scale-110 hover:text-goldColor/70 transition-all duration-300" />
               </Link>
               <Link
                 href="https://www.tiktok.com/@barbeariajohn1"
                 target="_blank"
                 rel="noreferrer"
-                className="text-xl py-1 px-6 border-l border-l-goldColor"
+                className="text-xl py-1 px-3 md:px-6 border-l border-l-goldColor"
                 aria-label="Instagram da Barbearia John"
               >
                 <FaTiktok className="text-goldColor hover:scale-110 hover:text-goldColor/70 transition-all duration-300" />
               </Link>
               <Link
+                href="https://www.youtube.com/@BarbeariaJohn"
+                target="_blank"
+                rel="noreferrer"
+                className="text-xl py-1 px-3 md:px-6 border-l border-l-goldColor"
+                aria-label="Instagram da Barbearia John"
+              >
+                <FaYoutube className="text-goldColor hover:scale-110 hover:text-goldColor/70 transition-all duration-300" />
+              </Link>
+              <Link
                 href="https://www.facebook.com/barbeariajohnn/"
                 target="_blank"
                 rel="noreferrer"
-                className="text-xl py-1 px-6 border-l border-l-goldColor"
+                className="text-xl py-1 px-3 md:px-6 border-l border-l-goldColor"
                 aria-label="Facebook da Barbearia John"
               >
                 <FaFacebookF className="text-goldColor hover:scale-110 hover:text-goldColor/70 transition-all duration-300" />
@@ -52,7 +63,7 @@ export default function Footer() {
                 href="https://maps.app.goo.gl/4toBGJMxHn73mh5w8"
                 target="_blank"
                 rel="noreferrer"
-                className="text-xl py-1 px-6 border-l border-l-goldColor"
+                className="text-xl py-1 px-3 md:px-6 border-l border-l-goldColor"
                 aria-label="Facebook da Barbearia John"
               >
                 <PiMapPinFill className="text-goldColor hover:scale-110 hover:text-goldColor/70 transition-all duration-300" />
